@@ -9,7 +9,10 @@ The starting point of my adventure is [Makers Academy](http://http://www.makersa
 
 I'll leave this section quite empty for now, hoping that at some point my code will do the talk for me.
 
-Here's how to reach me: 
+Here's how to reach me:
+
 [github](https://github.com/federicomaffei)
+
 [twitter](http://twitter.com/foltoc)
+
 [mail](federico.maffei@gmail.com)
