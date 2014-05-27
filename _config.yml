@@ -6,19 +6,17 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            'Federico @ Makers'
-tagline:          '- a timeline of me learning coding.'
-description:      blog
+title:            federico @ makers
+tagline:          a timeline of me learning coding
 url:              http://federicomaffei.github.io
-
+paginate:         5
+baseurl:          /
 author:
   name:           Federico Maffei
-  url:            http://federicomaffei.github.io
-
-paginate:         5
+  url:            https://twitter.com/foltoc
+  email:          federico.maffei@gmail.com
 
 # Custom vars
 version:          1.0.0
-
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/poole/poole
