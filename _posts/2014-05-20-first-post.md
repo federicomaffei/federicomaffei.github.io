@@ -25,5 +25,3 @@ Basically we got our hands dirty on a project that involves a directory of stude
 
 Enrique, our teacher for this first week, then gave us a coding Kata (that's what they call them) to complete over the weekend.
 This is the result, ready for you to watch on Vimeo. Check it!
-
-<iframe src="//player.vimeo.com/video/95677099" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/95677099">RSPEC TDD - FIZZBUZZ!</a> from <a href="http://vimeo.com/user28227225">Federico Maffei</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
