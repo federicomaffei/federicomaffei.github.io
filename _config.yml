@@ -9,14 +9,12 @@ permalink:        pretty
 title:            federico @ makers
 tagline:          a timeline of me learning coding
 url:              http://federicomaffei.github.io
+paginate:         5
 baseurl:	      /
-
 author:
   name:           Federico Maffei
   url:            https://twitter.com/foltoc
   email:          federico.maffei@gmail.com
-
-paginate:         5
 
 # Custom vars
 version:          1.0.0
