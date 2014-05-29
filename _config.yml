@@ -3,13 +3,13 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        date
+permalink:        pretty
 
 # Setup
 title:            federico @ makers
 tagline:          a timeline of me learning coding
 url:              http://federicomaffei.github.io
-shorturl:         federicomaffei.github.io
+baseurl:	      /
 
 author:
   name:           Federico Maffei
