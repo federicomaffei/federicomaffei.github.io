@@ -7,7 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            federico @ makers
-tagline:          a timeline of me learning coding
+tagline:          a blog on me learning coding.
 url:              http://federicomaffei.github.io
 paginate:         5
 baseurl:	      /
