@@ -10,7 +10,7 @@ title:            federico @ makers
 tagline:          a timeline of me learning coding
 url:              http://federicomaffei.github.io
 paginate:         5
-baseurl:          /
+baseurl:          http://federicomaffei.github.io
 author:
   name:           Federico Maffei
   url:            https://twitter.com/foltoc
