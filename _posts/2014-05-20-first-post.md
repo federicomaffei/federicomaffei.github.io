@@ -1,6 +1,7 @@
 ---
 layout: post
 title: week.first(), post.first()
+comments: true
 ---
 
 {% highlight ruby %}
