@@ -12,9 +12,7 @@ Graduation day has been very similar to the whole experience: a rollercoaster of
 
 Let's start talking a bit about the good things and peoples: 
 
-* The project, which has been an invaluable test for both coding and working in a team. I would be really glad if you, kind reader, would like to check the final product out at:
-
-[http://workmap.herokuapp.com/](http://workmap.herokuapp.com/)
+* The project, which has been an invaluable test for both coding and working in a team. I would be really glad if you, kind reader, would like to check the final product out at: [http://workmap.herokuapp.com/](http://workmap.herokuapp.com/)
 
 * The classmates and teammates, people that will go very far in life, all of them, I have no doubt about that. I hope not to lose contact with anyone, and I will put effort in making sure that doesn't happen.
 
