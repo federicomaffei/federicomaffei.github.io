@@ -6,14 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            federico @ makers
-tagline:          a blog on me learning coding.
+title:            fedTechRants
+tagline:          another beginner's blog on programming computers.
 url:              http://federicomaffei.github.io
 paginate:         5
 baseurl:	      /
 author:
   name:           Federico Maffei
-  url:            https://twitter.com/foltoc
+  url:            https://github.com/federicomaffei
   email:          federico.maffei@gmail.com
 
 # Custom vars
