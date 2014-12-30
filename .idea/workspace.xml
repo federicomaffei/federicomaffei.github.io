@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2c50ab-0bff-4104-a9f7-ad78ea8830b7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/opentable.JPG" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-11-17-newjob.md" afterPath="$PROJECT_DIR$/_posts/2014-11-17-newjob.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="federicomaffei.github.io.iws" />
@@ -91,8 +93,8 @@
       <file leaf-file-name="2014-11-17-newjob.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2014-11-17-newjob.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4552023" vertical-offset="0" max-vertical-offset="692">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.3034682" vertical-offset="0" max-vertical-offset="692">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -395,17 +397,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-23-day-58.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-07-21-day-56.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="390">
@@ -417,10 +408,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-23-day-58.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-11-17-newjob.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4552023" vertical-offset="0" max-vertical-offset="692">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.3034682" vertical-offset="0" max-vertical-offset="692">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
           <folding />
         </state>
       </provider>
