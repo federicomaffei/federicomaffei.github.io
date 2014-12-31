@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      fedtechrants -> &middot; another beginner's blog on programming computers.
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<body>
+
+  <div class="container content">
+    <div class="masthead">
+      <h3 class="masthead-title">
+        <a href="http://federicomaffei.github.io" title="Home">fedtechrants -></a>
+        <small>another beginner's blog on programming computers.</small>
+      </h3>
+    </div>
+
+    <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/05/27/day-10/">
+        Day 10 - A real player needs Class.
+      </a>
+    </h1>
+
+    <span class="post-date">27 May 2014</span>
+
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Player</span>
+    <span class="k">def</span> <span class="nf">initialize</span>
+        <span class="vi">@knows_about_classes</span> <span class="o">=</span> <span class="kp">false</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">after_this_tuesday</span>
+        <span class="vi">@knows_about_classes</span> <span class="o">=</span> <span class="kp">true</span>
+    <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
+<p>And we&#39;re back, after a long long weekend. The week started with a big juicy lecture about Ruby <a href="http://en.wikipedia.org/wiki/Class_%28computer_programming%29">classes</a>.
+Now some pieces of the puzzle are starting to combine in a nice way altogether.</p>
+
+<p>I feel really tired and not too keen on blogging about the whole day, that has been basically devoted to understand the basics of <a href="http://en.wikipedia.org/wiki/Object-oriented_design">OOD</a> and <a href="http://en.wikipedia.org/wiki/Object-oriented_programming">OOP</a> with a bit of CRC cards.</p>
+
+<p>What does all of it mean? We&#39;ll see, maybe I&#39;ll explain in a longer post soon. For now what I got is that objects and classes are like people and behave like people, and I don&#39;t know if a plus or a minus.</p>
+
+<p>But overall good day, with a lot of new stuff to learn. Really looking forward to be in class again tomorrow.</p>
+
+<p>And now, speaking of class, how did you expect an Italian would end this post?</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/baggio.jpg" alt="BAGGIO"></p>
+
+<p>Long live Roberto.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/05/23/day-9/">
+        Day 9 - TGIF
+      </a>
+    </h1>
+
+    <span class="post-date">23 May 2014</span>
+
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">week_end</span><span class="p">(</span><span class="n">day</span><span class="p">)</span>
+    <span class="k">case</span> <span class="s2">&quot;wednesday&quot;</span> <span class="k">then</span> <span class="s2">&quot;Two days left&quot;</span>
+    <span class="k">case</span> <span class="s2">&quot;thursday&quot;</span> <span class="k">then</span> <span class="s2">&quot;One day left&quot;</span>
+    <span class="k">case</span> <span class="s2">&quot;friday&quot;</span> <span class="k">then</span> <span class="s2">&quot;WEEKEND, LADS.&quot;</span>
+<span class="k">end</span></code></pre></div>
+
+<p>Today has been a day of <a href="https://www.youtube.com/watch?v=nJGEOB5nTrw">highs and lows</a>.</p>
+
+<p>It started quite low and went progressively better until the afternoon.
+It is Friday, end of the second week, and I&#39;m just tired as you could imagine.
+I completed the code challenge with no particular struggling (it was quite easy), then I went on programming a little bit by myself, until we were all (us and the March cohort) caught in a Retrospective, that is a way for the coaches to receive feedback and comments from us.</p>
+
+<p>I felt quite relieved in seeing I am not the only one feeling lost sometimes, and that it is normal not to finish a weekly project in time.</p>
+
+<p>I am strongly motivated to get my next week to be better than this one, and reach the goal of asking more focused questions during the lectures. We&#39;ll see. In the meanwhile, I&#39;m off to a few drinks. </p>
+
+<p>GOOD WEEKEND LADS!</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/tgif.jpeg" alt="TGIF"></p>
+
+<!-- <img src="http://www.mamatoga.com/wp-content/uploads/2012/11/tgif_14.jpeg" alt="tgif"> -->
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/05/22/day-8/">
+        Day 8 - AKA Day Hate
+      </a>
+    </h1>
+
+    <span class="post-date">22 May 2014</span>
+
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;understanding of mocks&#39;</span>
+
+<span class="n">describe</span> <span class="s1">&#39;trying to catch stdin - stdout&#39;</span> <span class="k">do</span>
+  <span class="n">it</span> <span class="s1">&#39;did not happen&#39;</span> <span class="k">do</span>
+    <span class="n">expect</span><span class="p">(</span><span class="no">STDIN</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">receive</span><span class="p">(</span><span class="ss">:gets</span><span class="p">)</span><span class="o">.</span><span class="n">and_return</span><span class="p">(</span><span class="s2">&quot;FALSE</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+  <span class="k">end</span>
+ <span class="k">end</span></code></pre></div>
+
+<p>There is no love without hate, <a href="https://www.youtube.com/watch?v=WcmGMggfgec">if the Wu Tang says so</a>, I believe them.</p>
+
+<p>Currently this is my feeling towards Ruby: I really enjoy learning it, but today it gave me hell.</p>
+
+<p>What can I say: my day at Makers started just fine - but during the day it definitely turned out to be difficult, to say the least. I worked hard on the <a href="https://www.relishapp.com/rspec">rspec</a> Student Directory project, and banged my head on several development problems, that I did not manage to tackle at all. Nic and Jamie helped me and gave me a couple of good hints, but I&#39;m still stuck on grasping some small but apparently important concepts.</p>
+
+<p>I tried to handle user input tests by implementing mocking, but it turned out that it was not that fun. Plus I stumbled upon several articles that incresed my skepticalness on it being useful. </p>
+
+<p>Anyway, at 7pm I called it a day, and here I am now, blogging and having a good roasted chicken to finish cooking in the oven. 
+Here it is, in all its glory.</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/pollo.jpg" alt="POLLO"></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/05/21/day-7/">
+        Day 7 - rspecrspecrspec
+      </a>
+    </h1>
+
+    <span class="post-date">21 May 2014</span>
+
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;half an hour of time to blog&#39;</span>
+
+<span class="n">describe</span> <span class="s1">&#39;trying to find time&#39;</span> <span class="k">do</span>
+  <span class="n">it</span> <span class="s1">&#39;while testing methods&#39;</span> <span class="k">do</span>
+    <span class="n">expect</span><span class="p">(</span><span class="n">find_ten_minutes_today</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be_false</span>
+  <span class="k">end</span>
+ <span class="k">end</span></code></pre></div>
+
+<p>Time, time, time.</p>
+
+<p><a href="https://www.youtube.com/watch?v=RMxRDTfzgpU">Like Satchmo sang</a>, we have all the time in the world.
+But apparently here at Makers it is not always true, especially when learning <a href="http://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>.</p>
+
+<p>The last two days have been really challenging. It turned out that the project we were working on was not coded properly, and that without testing, no line of code shall pass.</p>
+
+<p>I pair-programmed with Will these last two days, and we worked pretty hard to get things going. I&#39;m happy with the results achieved, and I see everyone of us really focused. We&#39;ll see if tomorrow we&#39;ll be able to finish this endless list of names, cohorts, emails, and so on.</p>
+
+<p>Today I left at 19,30 - at this was my face just before leaving. You be the judge. Later yo!</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/f_makers.jpg" alt="ME"></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/05/20/first-post/">
+        week.first(), post.first()
+      </a>
+    </h1>
+
+    <span class="post-date">20 May 2014</span>
+
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;learn coding at makers&#39;</span>
+
+<span class="n">describe</span> <span class="s1">&#39;overloading my brain&#39;</span> <span class="k">do</span>
+  <span class="n">it</span> <span class="s1">&#39;while completing my first week&#39;</span> <span class="k">do</span>
+    <span class="n">expect</span><span class="p">(</span><span class="n">my_brain</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be_empty</span>
+  <span class="k">end</span>
+ <span class="k">end</span></code></pre></div>
+
+<p>All right, here I am. Blogging for the first time in my life, about something that I&#39;m doing for the first time in my life.</p>
+
+<p>Coding. Learning how to develop software with my own brain and hands.</p>
+
+<p>I&#39;ve been telling myself to open up this blog since day one here at <a href="http://www.makersacademy.com">Makers</a>, but really did not even have the time to actually do it, until now. And of course promised myself to keep on updating it.</p>
+
+<p>The first week has been a real rollercoaster. I got to meet my cohort mates, which I&#39;m sure I&#39;ll get to know better over the next weeks, and I dived into the code. I paired with Sasha, and overall the working session has been constructive and promising.</p>
+
+<p>Basically we got our hands dirty on a project that involves a directory of students, and has the purpose of getting us in the right frame of mind.</p>
+
+<p>Enrique, our teacher for this first week, then gave us a coding <a href="http://codekata.com/">Kata</a> (that&#39;s what they call them) to complete over the weekend.
+<a href="https://vimeo.com/95677099">This is the result, ready for you to watch on Vimeo</a>. Check it!</p>
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    
+      <a class="pagination-item newer" href="http://federicomaffei.github.io/page7">Newer</a>
+    
+  
+</div>
+
+    <div class="footer">
+      <em>
+        <p>
+          &copy; 2014. no rights reserved. Thanks for reading!
+        </p>
+      </em>
+    </div>
+  </div>
+
+</body>
+</html>

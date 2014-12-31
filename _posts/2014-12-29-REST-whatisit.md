@@ -4,6 +4,8 @@ title: A Beginner's guide to REST services
 comments: true
 ---
 
+###Introduction to REST
+
 REST stands for Representational State Transfer.
 
 It is an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that uses it is called a **RESTful service**. REST is not strictly dependent on any protocol, but very often uses HTTP.
@@ -95,7 +97,7 @@ HTTP provides a set of methods that allow the client to perform standard operati
 | **OPTIONS** | List allowed operations on a resource            | Safe                   |
 | **HEAD**    | Return only the response header, no body         | Safe                   |
 
-The key difference between *POST* and *PUT* is that no matter how many times a *PUT* operation is performed, the result will be the same, whereas with a *POST* operation a resource will be added or updated multiple times.
+The key difference between *POST* and *PUT* is that no matter how many times a *PUT* operation is performed, the result will be the same (this is what *idempotent* means), whereas with a *POST* operation a resource will be added or updated multiple times.
 
 Another difference is that a client that sends a *PUT* request always need to know the exact URI to operate on, I.E. assigning a name or an ID to a resource. If the client is not able to do so, it has no choice but to use a POST request.
 
@@ -125,4 +127,8 @@ Cache-Control values can be tweaked to control if a cached result is still valid
 
 ###Conclusion
 
-REST is a language-agnostic style that allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular, that encourages developer from all over the world to comply to very basic ideas, owned by no one but at the same time used by everyone, even unconsciously!
+REST is a language-agnostic style that allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.
+
+That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.
+
+Even unconsciously, like your

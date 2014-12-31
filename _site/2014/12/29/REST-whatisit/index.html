@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      A Beginner's guide to REST services &middot; fedtechrants ->
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<body>
+
+  <div class="container content">
+    <div class="masthead">
+      <h3 class="masthead-title">
+        <a href="http://federicomaffei.github.io" title="Home">fedtechrants -></a>
+        <small>another beginner's blog on programming computers.</small>
+      </h3>
+    </div>
+
+    <div class="post">
+  <h1 class="post-title">A Beginner's guide to REST services</h1>
+  <span class="post-date">29 Dec 2014</span>
+  <h3 id="introduction-to-rest">Introduction to REST</h3>
+
+<p>REST stands for Representational State Transfer.</p>
+
+<p>It is an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that uses it is called a <strong>RESTful service</strong>. REST is not strictly dependent on any protocol, but very often uses HTTP.</p>
+
+<p>The purpose of a web service can be summed up as follows: it exposes <strong>resources</strong> to its <strong>clients</strong> so that they can access them (example of typical resources: pictures, video files, web pages, business data).</p>
+
+<p>Common features of a service that is built in a REST style are:</p>
+
+<ul>
+<li>Representations</li>
+<li>Messages</li>
+<li>URIs</li>
+<li>Uniform Interface</li>
+<li>Stateless</li>
+<li>Links between resources</li>
+<li>Caching</li>
+</ul>
+
+<h3 id="representations---what-are-they?">Representations - what are they?</h3>
+
+<p>REST style does not put a constraint into the way resources are represented.</p>
+
+<p>Good examples of data formats in which a resource could be returned from a service are <strong>JSON</strong> (JavaScript Object Notation, which nowadays is the coolest one) and <strong>XML</strong> (Extensible Markup Language, used for more complex data structures). Say for instance a REST service has to expose the data related to a song, with its attributes. A way of doing it in JSON could be:</p>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span>
+    <span class="nt">&quot;ID&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;(You gotta) Fight for your right (To party)&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;artist&quot;</span><span class="p">:</span> <span class="s2">&quot;Beastie Boys&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;album&quot;</span><span class="p">:</span> <span class="s2">&quot;Licensed To Ill&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;year&quot;</span><span class="p">:</span> <span class="mi">1986</span><span class="p">,</span>
+    <span class="nt">&quot;genre&quot;</span><span class="p">:</span> <span class="s2">&quot;Hip-Hop&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Easy, huh?</p>
+
+<p>Anyway, a service can represent a resource in a number of ways at the same time, leaving the client to choose which one is better suited for its needs. The important thing is that there is agreement on what format to send/expect.</p>
+
+<p>The format that the client needs will be part of the <strong>request</strong> sent by the client.</p>
+
+<p>The resource will be eventually sent by the service as part of what we call a <strong>response</strong>.</p>
+
+<p>It has to be kept in mind that a resource should be completely described by the representation, since this is the only information the client will have. It has to be exaustive, but without exposing classified or useless information about the entity at the same time.</p>
+
+<h3 id="messages-a.k.a.-client-and-service-chatting">Messages A.K.A. client and service chatting</h3>
+
+<p>Q: So, how do exactly client and service exchange requests and responses?</p>
+
+<p>A: They send messages.</p>
+
+<p>In fact, to be more specific, the client will send an <strong>HTTP request</strong> to the service, specifying the following details:</p>
+
+<ul>
+<li>The <strong>method</strong> that is called on the resource. It can correspond to a <em>GET</em>, a <em>POST</em>, a <em>PUT</em>, a <em>DELETE</em>, an <em>OPTIONS</em> or a <em>HEAD</em> operation.</li>
+<li>The <strong>URI</strong> of the request. It identifies what is the resource on which the client wants to use the method on. More on that later. For now let&#39;s say it is the only way the client know how to call the needed resource.</li>
+<li>The <strong>HTTP version</strong>, which is usually <em>HTTP/1.1</em>.</li>
+<li>The <strong>request headers</strong>, which are the additional information passed, with the request, to the service. These fields are basically request modifiers, similar to the parameters sent to a programming language method, and they depend on the type of request sent. More on that later.</li>
+<li>The <strong>request body</strong>: is the actual content of a message. In a RESTful service, it’s where the representation of resources sit. A body will not be present in a GET request, for instance, since it is a request to retrieve a resource rather than to create one, whereas a POST request will most likely have one.</li>
+</ul>
+
+<p>The request will then generate an <strong>HTTP response</strong> to the client, that will contain the following elements:</p>
+
+<ul>
+<li>The <strong>HTTP version</strong>, same as above.</li>
+<li>the <strong>response code</strong>: which is a three-digit status code sent back to the client. Can be of the <strong>1xx</strong> format (informational), <strong>2xx</strong> (success), <strong>3xx</strong> (redirect), <strong>4xx</strong> (client error), <strong>5xx</strong> (server error).</li>
+<li>the <strong>response header</strong>, which contains metadata and settings related to the message.</li>
+<li>the <strong>response body</strong>: contains the representation (if the request was successful).</li>
+</ul>
+
+<h3 id="uris,-home-of-the-resources">URIs, home of the resources</h3>
+
+<p>A requirement of REST is that each resource has to correspond to an URI address, which unsurprisingly stands for Uniform Resource Identifier. Having URIs associated to resources is key, because they are the addresses on which the client is allowed to perform the operations on the resources. It is important to stress that according to REST an URI should describe a resource, but never the operation performed on it.</p>
+
+<p>The addresses are usually constructed hierarchically, to allow readability. A typical resource URL could be written as:
+<strong>http://serviceName/resourceName/resourceID</strong></p>
+
+<p>Basic guidelines to build well-structured URIs are:</p>
+
+<ul>
+<li>Resources should be named with plural nouns, no verbs, using conventions throughout the whole service.</li>
+<li>Query URIs (http://serviceName/resourceName?id=resourceID) should be used only when really necessary. They are not deprecated by REST style, but they are less readable than the normal URIs, and are ignored by search engines. On the upside, they allow the client to send parameters to the service, to refine the request for a specific subset of resources, or resources in a specific format.</li>
+</ul>
+
+<h3 id="uniform-interface,-various-operations">Uniform interface, various operations</h3>
+
+<p>Ok, so now that a client knows where a resource is reachable, how is it going to handle the resource? What are the operations that it can perform?</p>
+
+<p>HTTP provides a set of methods that allow the client to perform standard operations on the service:</p>
+
+<table><thead>
+<tr>
+<th>Method</th>
+<th>Operation performed</th>
+<th>Quality</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><strong>GET</strong></td>
+<td>Read a resource</td>
+<td>Safe</td>
+</tr>
+<tr>
+<td><strong>POST</strong></td>
+<td>Insert a new resource, or update an existing one</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>PUT</strong></td>
+<td>Insert a new resource, or update an existing one</td>
+<td>Idempotent (see below)</td>
+</tr>
+<tr>
+<td><strong>DELETE</strong></td>
+<td>Delete a resource</td>
+<td>Idempotent</td>
+</tr>
+<tr>
+<td><strong>OPTIONS</strong></td>
+<td>List allowed operations on a resource</td>
+<td>Safe</td>
+</tr>
+<tr>
+<td><strong>HEAD</strong></td>
+<td>Return only the response header, no body</td>
+<td>Safe</td>
+</tr>
+</tbody></table>
+
+<p>The key difference between <em>POST</em> and <em>PUT</em> is that no matter how many times a <em>PUT</em> operation is performed, the result will be the same (this is what <em>idempotent</em> means), whereas with a <em>POST</em> operation a resource will be added or updated multiple times.</p>
+
+<p>Another difference is that a client that sends a <em>PUT</em> request always need to know the exact URI to operate on, I.E. assigning a name or an ID to a resource. If the client is not able to do so, it has no choice but to use a POST request.</p>
+
+<p>Finally, if the resource already exists, <em>POST</em> and <em>PUT</em> will update it in an identical fashion.</p>
+
+<h3 id="statelessness-of-the-client-side">Statelessness of the client side</h3>
+
+<p>A RESTful service does not maintain the application state client-side. This only allow the client to perform requests that are resource specific, and does not allow the client to perform operations that assume prior knowledge of past requests.</p>
+
+<h3 id="links-between-resources">Links between resources</h3>
+
+<p>in the case of a resource that contains a list of resources, REST suggests to include links to the single resources on the representation, to keep it compact and avoid redundant data.</p>
+
+<h3 id="caching-to-optimize-time-and-efficiency">Caching to optimize time and efficiency</h3>
+
+<p>Allows to store responses and return them if the same request is performed again. It has to be handled carefully to avoid returning stale results. The headers that allow us to perform controls over caching are:</p>
+
+<table><thead>
+<tr>
+<th>Header</th>
+<th>Application</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><strong>Date</strong></td>
+<td>Finding out when this representation was generated</td>
+</tr>
+<tr>
+<td><strong>Last Modified</strong></td>
+<td>Date and time when the server modified the representation</td>
+</tr>
+<tr>
+<td><strong>Cache-Control</strong></td>
+<td>HTTP 1.1 header used to control caching, can contain directives</td>
+</tr>
+<tr>
+<td><strong>Expires</strong></td>
+<td>Expiration date (supports HTTP 1.0)</td>
+</tr>
+<tr>
+<td><strong>Age</strong></td>
+<td>Duration since the resource was fetched from server</td>
+</tr>
+</tbody></table>
+
+<p>Cache-Control values can be tweaked to control if a cached result is still valid or stale. For example, the <em>max-age</em> value indicates for how many seconds from the moment expressed by the Date header a cached result will be valid.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>REST is a language-agnostic style that allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.</p>
+
+<p>That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.</p>
+
+<p>Even unconsciously, like your</p>
+
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'federicomaffei'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/11/17/newjob/">
+            New Job.
+            <small>17 Nov 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/08/13/graduation/">
+            Graduation!
+            <small>13 Aug 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/07/28/day-61/">
+            Day 61 - Project Day 5.
+            <small>28 Jul 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+    <div class="footer">
+      <em>
+        <p>
+          &copy; 2014. no rights reserved. Thanks for reading!
+        </p>
+      </em>
+    </div>
+  </div>
+
+</body>
+</html>

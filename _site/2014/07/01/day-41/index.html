@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Day 41. &middot; fedtechrants ->
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<body>
+
+  <div class="container content">
+    <div class="masthead">
+      <h3 class="masthead-title">
+        <a href="http://federicomaffei.github.io" title="Home">fedtechrants -></a>
+        <small>another beginner's blog on programming computers.</small>
+      </h3>
+    </div>
+
+    <div class="post">
+  <h1 class="post-title">Day 41.</h1>
+  <span class="post-date">01 Jul 2014</span>
+  <div class="highlight"><pre><code class="language-bash" data-lang="bash">Federicos-MacBook-Air:yelp federicomaffei<span class="nv">$ </span>rspec
+
+restaurants listing page
+  no restaurants
+    tells me there a no restaurants
+  are restaurants
+    should show the restaurant
+
+restaurant creation form
+  should be able to create a restaurant
+
+restaurant edit form
+  shound be able to edit a restaurant
+  can delete restaurants
+
+writing reviews
+  should add the review of a resturant</code></pre></div>
+
+<p>So, Rails, here we go.</p>
+
+<p>This framework works following the <a href="http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/">MVC paradigm</a>. This means that we always design the behavior of the application using three entities: Models, Views, and Controllers.</p>
+
+<p>This means that every communication between the browser (the user side, your side, kind reader) and our application is handled by the Controller. The particular requests are handled and dispatched via Routes, that allow the controller to activate the Model, retrieve the data and ask the View to display it.</p>
+
+<p>Models are Ruby classes, that perform operations with the database, validate the data, execute low-level operations on it, and then return it to the controller to be routed to views. They do it using the class ActiveRecord::Base, that allows binding between the Ruby class and Database tables (in our case, <a href="http://en.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>). I&#39;ll write more about Rails/DB interaction very soon.</p>
+
+<p>Views are the artists of the flat: they use HyperText Markup Language, Cascading Style Sheets, JavaScript, and a vast number of <a href="https://www.princeton.edu/%7Eachaney/tmve/wiki100k/docs/Client-side_scripting.html">client-side scripting languages</a> to display nicely the required content or asset to the end-user. They don&#39;t know what is happening behind the scenes: they just want go onstage and rock that crowd!</p>
+
+<p>Overall I am liking Rails, and I feel that this blog will be more and more tech-oriented as time passes and my confidence in what I know increases. I am a developer, after all, so why not share what I am learning?</p>
+
+<p>On a lighter note, tonight I went to celebrate Canada Day at Birthdays, a nice Dalston bar. Unfortunately I did not manage to try their famous Poutine dish because they ran off of it (it was full of Canadians craving for it), but will definitely do as soon as I have the chance. I balanced with a couple of great IPA beers, so not bad at all.</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/poutine.jpg" alt="POUTINE"></p>
+
+<p>I&#39;ll let you know if I like as soon as I get another chance to have that. Artist of the week? <a href="https://www.youtube.com/watch?v=cuHkUq1uSqE">THE CHEF.</a></p>
+
+<p>Nite!</p>
+
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'federicomaffei'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/12/29/REST-whatisit/">
+            A Beginner's guide to REST services
+            <small>29 Dec 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/11/17/newjob/">
+            New Job.
+            <small>17 Nov 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/08/13/graduation/">
+            Graduation!
+            <small>13 Aug 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+    <div class="footer">
+      <em>
+        <p>
+          &copy; 2014. no rights reserved. Thanks for reading!
+        </p>
+      </em>
+    </div>
+  </div>
+
+</body>
+</html>

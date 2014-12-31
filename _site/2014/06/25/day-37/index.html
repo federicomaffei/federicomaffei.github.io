@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Day 37. &middot; fedtechrants ->
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<body>
+
+  <div class="container content">
+    <div class="masthead">
+      <h3 class="masthead-title">
+        <a href="http://federicomaffei.github.io" title="Home">fedtechrants -></a>
+        <small>another beginner's blog on programming computers.</small>
+      </h3>
+    </div>
+
+    <div class="post">
+  <h1 class="post-title">Day 37.</h1>
+  <span class="post-date">25 Jun 2014</span>
+  <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#add_profile&#39;</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;submit&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">){</span>
+        <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
+        <span class="kd">var</span> <span class="nx">username</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#username&#39;</span><span class="p">).</span><span class="nx">val</span><span class="p">();</span>
+        <span class="nx">$</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/users/&#39;</span> <span class="o">+</span> <span class="nx">username</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">user</span><span class="p">){</span>
+        <span class="kd">var</span> <span class="nx">newProfile</span> <span class="o">=</span> <span class="nx">Mustache</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#profile-template&#39;</span><span class="p">).</span><span class="nx">html</span><span class="p">(),</span> <span class="nx">user</span><span class="p">);</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.profile-container&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="nx">newProfile</span><span class="p">);</span>
+        <span class="p">});</span>
+    <span class="p">});</span>
+<span class="p">});</span></code></pre></div>
+
+<p>Javascript and <a href="http://en.wikipedia.org/wiki/JQuery">jQuery</a> madness going on at Makers.
+Today I actually posted here a chunk of code I have written, instead of the usual mocking one, since I am quite proud of it.</p>
+
+<p>Alex showed us how to develop a dynamic content page which retrieves data from <a href="https://github.com/">GitHub</a> and shows it as a result of a search. This means that now our static HTML is powered by the combination of Javascript and jQuery (which is basically a library that has access to the HTML document and extends Javascript, allowing to retrieve, process and add content from and to the page itself).</p>
+
+<p>In this case we have learned how to take an user&#39;s input (a GitHub username) and via <a href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> obtain data about that user (username, avater, followers, repos) and put that into the page in a nice and animated way.</p>
+
+<p>Of course this new language is hard to  grasp. Of course programming in Ruby was like talking in Italian while JS looks a bit like English, in a way. But this is a time of challenges, so how bad can be another one? Plus this thing of being able to handle data from big applications and sites is fascinating.</p>
+
+<p>On another side of my life - flatmates are moving back to Paris, and this means I have to look for a new flat this week. I&#39;ll miss them!</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/flatmates.jpg" alt="FLATMATES"></p>
+
+<p>Night.</p>
+
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'federicomaffei'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/12/29/REST-whatisit/">
+            A Beginner's guide to REST services
+            <small>29 Dec 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/11/17/newjob/">
+            New Job.
+            <small>17 Nov 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://federicomaffei.github.io/2014/08/13/graduation/">
+            Graduation!
+            <small>13 Aug 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+    <div class="footer">
+      <em>
+        <p>
+          &copy; 2014. no rights reserved. Thanks for reading!
+        </p>
+      </em>
+    </div>
+  </div>
+
+</body>
+</html>
