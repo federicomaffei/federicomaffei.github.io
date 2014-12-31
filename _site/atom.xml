@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2014-12-31T15:29:52+00:00</updated>
+ <updated>2014-12-31T15:36:46+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -199,7 +199,7 @@
 
 &lt;p&gt;That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.&lt;/p&gt;
 
-&lt;p&gt;Even unconsciously, like your&lt;/p&gt;
+&lt;p&gt;And that lead me to this realization: for this first 6 months or so, I have been developing REST services on Rails, Node and so on, without knowing it ;)&lt;/p&gt;
 </content>
  </entry>
  
