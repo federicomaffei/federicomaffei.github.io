@@ -62,6 +62,7 @@ In fact, to be more specific, the client will send an **HTTP request** to the se
 - The **request body**: is the actual content of a message. In a RESTful service, it’s where the representation of resources sit. A body will not be present in a GET request, for instance, since it is a request to retrieve a resource rather than to create one, whereas a POST request will most likely have one.
 
 The request will then generate an **HTTP response** to the client, that will contain the following elements:
+
 - The **HTTP version**, same as above.
 - the **response code**: which is a three-digit status code sent back to the client. Can be of the **1xx** format (informational), **2xx** (success), **3xx** (redirect), **4xx** (client error), **5xx** (server error).
 - the **response header**, which contains metadata and settings related to the message.
@@ -75,6 +76,7 @@ The addresses are usually constructed hierarchically, to allow readability. A ty
 **http://serviceName/resourceName/resourceID**
 
 Basic guidelines to build well-structured URIs are:
+
 - Resources should be named with plural nouns, no verbs, using conventions throughout the whole service.
 - Query URIs (http://serviceName/resourceName?id=resourceID) should be used only when really necessary. They are not deprecated by REST style, but they are less readable than the normal URIs, and are ignored by search engines. On the upside, they allow the client to send parameters to the service, to refine the request for a specific subset of resources, or resources in a specific format.
 
