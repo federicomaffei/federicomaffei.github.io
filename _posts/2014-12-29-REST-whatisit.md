@@ -84,14 +84,14 @@ Ok, so now that a client knows where a resource is reachable, how is it going to
 
 HTTP provides a set of methods that allow the client to perform standard operations on the service:
 
-| Method | Operation performed | Quality |
-|--------|---------------------|---------|
-| **GET** | Read a resource | Safe |
-| **POST** | Insert a new resource, or update an existing one | N/A |
-| **PUT** | Insert a new resource, or update an existing one | Idempotent (see below) |
-| **DELETE** | Delete a resource | Idempotent |
-| **OPTIONS** | List allowed operations on a resource | Safe |
-| **HEAD** | Return only the response header, no body | Safe |
+| Method  | Operation performed                              | Quality                |
+|---------|--------------------------------------------------|------------------------|
+| GET     | Read a resource                                  | Safe                   |
+| POST    | Insert a new resource, or update an existing one | N/A                    |
+| PUT     | Insert a new resource, or update an existing one | Idempotent (see below) |
+| DELETE  | Delete a resource                                | Idempotent             |
+| OPTIONS | List allowed operations on a resource            | Safe                   |
+| HEAD    | Return only the response header, no body         | Safe                   |
 
 The key difference between *POST* and *PUT* is that no matter how many times a *PUT* operation is performed, the result will be the same, whereas with a *POST* operation a resource will be added or updated multiple times.
 
@@ -112,7 +112,7 @@ in the case of a resource that contains a list of resources, REST suggests to in
 Allows to store responses and return them if the same request is performed again. It has to be handled carefully to avoid returning stale results. The headers that allow us to perform controls over caching are:
 
 | Header | Application |
-| -------|------------ |
+|--------|-------------|
 | **Date** | Finding out when this representation was generated |
 | **Last Modified** | Date and time when the server modified the representation |
 | **Cache-Control** | HTTP 1.1 header used to control caching, can contain directives |
