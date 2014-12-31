@@ -131,4 +131,4 @@ REST is a language-agnostic style that allows to build scalable, reusable and re
 
 That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.
 
-Even unconsciously, like your
+And that lead me to this realization: for this first 6 months or so, I have been developing REST services on Rails, Node and so on, without knowing it ;)
