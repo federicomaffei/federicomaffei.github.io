@@ -86,18 +86,14 @@ Ok, so now that a client knows where a resource is reachable, how is it going to
 
 HTTP provides a set of methods that allow the client to perform standard operations on the service:
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
+| Method  | Operation performed                              | Quality                |
+|---------|--------------------------------------------------|------------------------|
+| GET     | Read a resource                                  | Safe                   |
+| POST    | Insert a new resource, or update an existing one | N/A                    |
+| PUT     | Insert a new resource, or update an existing one | Idempotent (see below) |
+| DELETE  | Delete a resource                                | Idempotent             |
+| OPTIONS | List allowed operations on a resource            | Safe                   |
+| HEAD    | Return only the response header, no body         | Safe                   |
 
 The key difference between *POST* and *PUT* is that no matter how many times a *PUT* operation is performed, the result will be the same, whereas with a *POST* operation a resource will be added or updated multiple times.
 
