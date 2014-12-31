@@ -88,12 +88,12 @@ HTTP provides a set of methods that allow the client to perform standard operati
 
 | Method  | Operation performed                              | Quality                |
 |---------|--------------------------------------------------|------------------------|
-| GET     | Read a resource                                  | Safe                   |
-| POST    | Insert a new resource, or update an existing one | N/A                    |
-| PUT     | Insert a new resource, or update an existing one | Idempotent (see below) |
-| DELETE  | Delete a resource                                | Idempotent             |
-| OPTIONS | List allowed operations on a resource            | Safe                   |
-| HEAD    | Return only the response header, no body         | Safe                   |
+| **GET**     | Read a resource                                  | Safe                   |
+| **POST**    | Insert a new resource, or update an existing one | N/A                    |
+| **PUT**     | Insert a new resource, or update an existing one | Idempotent (see below) |
+| **DELETE**  | Delete a resource                                | Idempotent             |
+| **OPTIONS** | List allowed operations on a resource            | Safe                   |
+| **HEAD**    | Return only the response header, no body         | Safe                   |
 
 The key difference between *POST* and *PUT* is that no matter how many times a *PUT* operation is performed, the result will be the same, whereas with a *POST* operation a resource will be added or updated multiple times.
 
