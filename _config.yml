@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            fedTechRants
+title:            fedtechrants ->
 tagline:          another beginner's blog on programming computers.
 url:              http://federicomaffei.github.io
 paginate:         5
