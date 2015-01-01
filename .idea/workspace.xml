@@ -2,11 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2c50ab-0bff-4104-a9f7-ad78ea8830b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md" afterPath="$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/20/first-post/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/20/first-post/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/21/day-7/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/21/day-7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/22/day-8/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/22/day-8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/23/day-9/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/23/day-9/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/27/day-10/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/27/day-10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/28/day-11/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/28/day-11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/29/day-12/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/29/day-12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/05/30/day-13/index.html" afterPath="$PROJECT_DIR$/_site/2014/05/30/day-13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/01/weekend/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/01/weekend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/02/day-14-15/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/02/day-14-15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/05/day-17/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/05/day-17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/10/day-22/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/10/day-22/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/12/day-24/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/12/day-24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/14/weekend/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/14/weekend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/18/day-31/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/18/day-31/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/19/day-32/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/19/day-32/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/20/day-33/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/20/day-33/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/24/day-36/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/24/day-36/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/25/day-37/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/25/day-37/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/26/day-38/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/26/day-38/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/06/30/day-40/index.html" afterPath="$PROJECT_DIR$/_site/2014/06/30/day-40/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/01/day-41/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/01/day-41/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/02/day-42/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/02/day-42/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/03/day-43/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/03/day-43/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/04/day-44/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/04/day-44/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/06/weekend/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/06/weekend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/08/day-47/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/08/day-47/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/09/day-48/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/09/day-48/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/10/day-49/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/10/day-49/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/14/day-51/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/14/day-51/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/17/day-54/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/17/day-54/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/20/weekend/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/20/weekend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/21/day-56/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/21/day-56/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/22/day-57/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/22/day-57/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/23/day-58/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/23/day-58/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/24/day-59/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/24/day-59/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/07/28/day-61/index.html" afterPath="$PROJECT_DIR$/_site/2014/07/28/day-61/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/08/13/graduation/index.html" afterPath="$PROJECT_DIR$/_site/2014/08/13/graduation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/11/17/newjob/index.html" afterPath="$PROJECT_DIR$/_site/2014/11/17/newjob/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/12/29/REST-whatisit/index.html" afterPath="$PROJECT_DIR$/_site/2014/12/29/REST-whatisit/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="$PROJECT_DIR$/_site/page2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page3/index.html" afterPath="$PROJECT_DIR$/_site/page3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page4/index.html" afterPath="$PROJECT_DIR$/_site/page4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page5/index.html" afterPath="$PROJECT_DIR$/_site/page5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page6/index.html" afterPath="$PROJECT_DIR$/_site/page6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page7/index.html" afterPath="$PROJECT_DIR$/_site/page7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page8/index.html" afterPath="$PROJECT_DIR$/_site/page8/index.html" />
     </list>
     <ignored path="federicomaffei.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +80,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="450">
               <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
               <folding />
             </state>
@@ -50,29 +97,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-12-29-REST-whatisit.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2014-12-29-REST-whatisit.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3666666" vertical-offset="1279" max-vertical-offset="2100">
-              <caret line="92" column="91" selection-start-line="92" selection-start-column="91" selection-end-line="92" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8958333" vertical-offset="1380" max-vertical-offset="2115">
+              <caret line="135" column="56" selection-start-line="135" selection-start-column="56" selection-end-line="135" selection-end-column="56" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.060321715" vertical-offset="0" max-vertical-offset="746">
+            <state vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="135">
               <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -80,18 +127,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_posts/2014-11-17-newjob.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/public/css/poole.css" />
-        <option value="$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -124,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,6 +174,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="federicomaffei.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="federicomaffei.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="federicomaffei.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="federicomaffei.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="federicomaffei.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,6 +239,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,9 +278,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -221,7 +286,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -249,6 +316,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="450">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/poole.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3930" max-vertical-offset="6540">
+          <caret line="288" column="15" selection-start-line="288" selection-start-column="15" selection-end-line="288" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2100">
+          <caret line="92" column="91" selection-start-line="92" selection-start-column="91" selection-end-line="92" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding />
@@ -256,58 +361,58 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-08-13-graduation.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-24-day-59.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-24-day-59.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-23-day-58.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-23-day-58.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-21-day-56.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-21-day-56.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="390">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="57" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-11-17-newjob.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-11-17-newjob.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
@@ -333,14 +438,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-08-13-graduation.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atom.xml">
@@ -371,80 +476,78 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-08-13-graduation.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-24-day-59.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-24-day-59.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-07-23-day-58.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-21-day-56.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-21-day-56.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32171583" vertical-offset="0" max-vertical-offset="746">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="57" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-11-17-newjob.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-11-17-newjob.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="746">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-07-06-weekend.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-07-06-weekend.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-07-20-weekend.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48257372" vertical-offset="0" max-vertical-offset="746">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/poole.css">
@@ -463,26 +566,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3666666" vertical-offset="1279" max-vertical-offset="2100">
-          <caret line="92" column="91" selection-start-line="92" selection-start-column="91" selection-end-line="92" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060321715" vertical-offset="0" max-vertical-offset="746">
+        <state vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="135">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8958333" vertical-offset="1380" max-vertical-offset="2115">
+          <caret line="135" column="56" selection-start-line="135" selection-start-column="56" selection-end-line="135" selection-end-column="56" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
