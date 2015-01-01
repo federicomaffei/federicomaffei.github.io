@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-01T20:40:20+00:00</updated>
+ <updated>2015-01-01T22:07:19+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -199,9 +199,7 @@
 
 &lt;p&gt;That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.&lt;/p&gt;
 
-&lt;p&gt;And that lead me to this realization: for this first 6 months or so, I have been developing REST services on Rails, Node and so on, without knowing it ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.federicomaffei.github.io/public/images/himym.gif&quot; alt=&quot;VICTORY&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://federicomaffei.github.io/public/images/himym.gif&quot; class=&quot;center-image&quot;&gt;&lt;/img&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -543,7 +541,7 @@ Now it integrates &lt;a href=&quot;https://developers.google.com/maps/&quot;&gt;
 
 &lt;p&gt;Instagram app coding proceeding. I got quite boring with the idea of replicating exactly this service, and I tried to spice it up a little bit, converting it into my personal version. As a stereotypical Italian, I chose to style is as Pizzagram, a social network of inviting pizza pictures.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://federicomaffei.github.io/public/images/pizzagram.jpg&quot; alt=&quot;PIZZAGRAM&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://federicomaffei.github.io/public/images/pizzagram.jpg&quot; class=&quot;center-image&quot;&gt;&lt;/img&gt;&lt;/p&gt;
 
 &lt;p&gt;Yes, sometimes coding gets a little repetitive. Especially if you still are in a beginner stage, where every little details can cost pain and long struggles to be fixed. The drawback is that we have a pretty accurate model of how our code should look like, once we will be good at writing it.&lt;/p&gt;
 
