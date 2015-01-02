@@ -6,7 +6,7 @@ comments: true
 
 ###Introduction to DNS
 
-In the last three months have done my fair amount of interviews, of course looking for a software engineer job, and a question that surfaced AN AWFUL LOT, and when I mean a lot I mean always, is:
+In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I mean a lot I mean always, is:
 
 *So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?*
 

@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-02T17:20:17+00:00</updated>
+ <updated>2015-01-02T17:21:12+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -19,7 +19,7 @@
    <id>http://federicomaffei.github.io/2014/12/31/DNS-whatisit</id>
    <content type="html">&lt;h3 id=&quot;introduction-to-dns&quot;&gt;Introduction to DNS&lt;/h3&gt;
 
-&lt;p&gt;In the last three months have done my fair amount of interviews, of course looking for a software engineer job, and a question that surfaced AN AWFUL LOT, and when I mean a lot I mean always, is:&lt;/p&gt;
+&lt;p&gt;In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I mean a lot I mean always, is:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?&lt;/em&gt;&lt;/p&gt;
 
