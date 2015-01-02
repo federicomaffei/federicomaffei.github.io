@@ -58,9 +58,11 @@ Resolving an address via DNS is also called **lookup**, and it is a recursive pr
 
 2. The root name server will return a name server which is authoritative for the top-level domain.
 
-3. The TLD server will give the address of the name server authoritative for the second level domain.
+3. This server will give the address of the name server authoritative for the second level domain.
 
 4. If the hostname is resolved, an IP address is returned. Otherwise step 3) is repeated for all the labels of the domain name in sequence, until a result is reached.
+
+I did an amazing diagram to show that.
 
 <img src="http://federicomaffei.github.io/public/images/dnsbasic.jpg" class="center-image"></img>
 

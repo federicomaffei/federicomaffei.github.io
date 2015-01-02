@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-02T17:15:21+00:00</updated>
+ <updated>2015-01-02T17:16:41+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -69,9 +69,11 @@ It is very important to note that the system&amp;#39;s DNS setting can be also o
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;The resolver has knowledge of the addresses of root name servers, from where the search can start.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The root name server will return a name server which is authoritative for the top-level domain.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The TLD server will give the address of the name server authoritative for the second level domain.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This server will give the address of the name server authoritative for the second level domain.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If the hostname is resolved, an IP address is returned. Otherwise step 3) is repeated for all the labels of the domain name in sequence, until a result is reached.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;I did an amazing diagram to show that.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://federicomaffei.github.io/public/images/dnsbasic.jpg&quot; class=&quot;center-image&quot;&gt;&lt;/img&gt;&lt;/p&gt;
 
