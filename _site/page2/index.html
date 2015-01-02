@@ -41,6 +41,49 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/07/24/day-59/">
+        Day 59 - Project Day 4.
+      </a>
+    </h1>
+
+    <span class="post-date">24 Jul 2014</span>
+
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">json</span><span class="o">.</span><span class="n">array!</span> <span class="vi">@jobs</span> <span class="k">do</span> <span class="o">|</span><span class="n">job</span><span class="o">|</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">advert_title</span> <span class="n">job</span><span class="o">.</span><span class="n">advert_title</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">address</span> <span class="n">job</span><span class="o">.</span><span class="n">address</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">company</span> <span class="n">job</span><span class="o">.</span><span class="n">company</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">category</span> <span class="n">job</span><span class="o">.</span><span class="n">category</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">latitude</span> <span class="n">job</span><span class="o">.</span><span class="n">latitude</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">longitude</span> <span class="n">job</span><span class="o">.</span><span class="n">longitude</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">detail</span> <span class="n">job</span><span class="o">.</span><span class="n">detail</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">email</span> <span class="n">job</span><span class="o">.</span><span class="n">email</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">phone</span> <span class="n">job</span><span class="o">.</span><span class="n">phone</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">wage</span> <span class="n">job</span><span class="o">.</span><span class="n">wage</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">hours</span> <span class="p">(</span><span class="n">job</span><span class="o">.</span><span class="n">full_time?</span> <span class="p">?</span> <span class="s2">&quot;Full time&quot;</span> <span class="p">:</span> <span class="s2">&quot;Part time&quot;</span><span class="p">)</span>
+<span class="k">end</span></code></pre></div>
+
+<p>Hectic day today, started with the usual Standup Meeting with Jordan. Here&#39;s all the team, glorious screenshot.</p>
+
+<p><img src="http://federicomaffei.github.io/public/images/meeting.png" alt="MEETING"></p>
+
+<p>Then we went on with the development of our creature, WorkMap. The deadline to deliver a shippable product, as per Agile specifications, is this Sunday. Then we&#39;ll begin the second and last Sprint.</p>
+
+<p>This means a rush of four days, in which we have to tackle 3 main aims:</p>
+
+<ul>
+<li><p>Be sure that all the jobs inserted by the employer are in the map, and allow the user to filter them.</p></li>
+<li><p>Make a good looking landing page.</p></li>
+<li><p>Be sure that the employer can edit the jobs he inserted, and pays for the newly added advert.</p></li>
+</ul>
+
+<p>Today I have been working with Robin, trying to tackle the jobs filtering on the map. It turned out that all the code that I wrote to make checkboxes filter results was pretty useless, since now we settled for a filtering form, allow us to render the results of the search in <a href="http://en.wikipedia.org/wiki/JSON">JSON format</a>. This way we can pass all the information related to jobs from the Rails back end to the Javascript front end, and viceversa.</p>
+
+<p>Anyway, two full days of work to Sunday. Better get some rest, yo.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="http://federicomaffei.github.io/2014/07/23/day-58/">
         Day 58 - Project Day 3.
       </a>
@@ -157,50 +200,6 @@
 <p>Now we have a good plan for next week. User stories that are to be analyzed, understood and put into code.</p>
 
 <p>Exciting. I can&#39;t wait until it is Monday, and that should tell you how good it feels to be building something of our own.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://federicomaffei.github.io/2014/07/17/day-54/">
-        Day 54.
-      </a>
-    </h1>
-
-    <span class="post-date">17 Jul 2014</span>
-
-    <p>Not much blogging this week, I know.</p>
-
-<p>But time has come, and I can tell you a bit more about the final project.</p>
-
-<p>I have chosen to participate in a project that is a bit experimental. In fact I&#39;ll be developing an idea pitched by our marketing man Jordan, that offered to guide a group of us in two weeks of <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile Development</a> of a job-searching-and-posting platform called WorkMap.</p>
-
-<p>I will be working with James W, Sasha, Robin, and James K.</p>
-
-<p>Agile Development is based on a really simple and incisive manifesto, that reads:</p>
-
-<blockquote>
-<p>We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:</p>
-
-<ul>
-<li><p>Individuals and interactions over Processes and tools</p></li>
-<li><p>Working software over Comprehensive documentation</p></li>
-<li><p>Customer collaboration over Contract negotiation</p></li>
-<li><p>Responding to change over Following a plan</p></li>
-</ul>
-
-<p>That is, while there is value in the items on the right, we value the items on the left more.</p>
-</blockquote>
-
-<p>The two weeks will be divided in two so-called Sprints, starting this Sunday, when we&#39;ll focus on building User Stories related to this project, and find out what we&#39;ll be developing first. Jordan will act as Product Owner, and we will discuss with him the requirements of the project, creating the Product Backlog. That first phase will be called Product Backlog Grooming session. Then we will estimate the time needed for completing each task related to the PBI, in a second part of the meeting called Sprint Planning Session.</p>
-
-<p>Then on Monday we&#39;ll start coding! And I am really happy to say that while I&#39;m doing it, I&#39;m realizing I like it, and working on a weekend is not annoying at all. An this is the main answer I was expecting to have from these three months.</p>
-
-<p>Good things to come. Hopefully I&#39;ll be able to blog all over the completion of the finished product.</p>
-
-<p>Oh, and tonight London sky looks pretty great. May you all have the weekend you wish for.</p>
-
-<p><img src="http://federicomaffei.github.io/public/images/sky.jpg" alt="SKY"></p>
 
   </div>
   

@@ -4,13 +4,102 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-01T22:07:19+00:00</updated>
+ <updated>2015-01-02T17:09:34+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
    <email>federico.maffei@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Adventures in the DNS jungle - part one</title>
+   <link href="http://federicomaffei.github.io//2014/12/31/DNS-whatisit/"/>
+   <updated>2014-12-31T00:00:00+00:00</updated>
+   <id>http://federicomaffei.github.io/2014/12/31/DNS-whatisit</id>
+   <content type="html">&lt;h3 id=&quot;introduction-to-dns&quot;&gt;Introduction to DNS&lt;/h3&gt;
+
+&lt;p&gt;In the last three months have done my fair amount of job interviews, of course looking for a software engineer job, and a question that surfaced AN AWFUL LOT, and when I mean a lot I mean always, is:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course the possible answers would range from &amp;quot;MMMHHH, wellll, I&amp;#39;m not sure where to start...&amp;quot; to a whole book on networking.&lt;/p&gt;
+
+&lt;p&gt;But I think that mentioning &lt;strong&gt;DNS&lt;/strong&gt; would make the best start.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and memorable by a human being.&lt;/p&gt;
+
+&lt;p&gt;But a machine needs an &lt;strong&gt;IP address&lt;/strong&gt; to recognize another machine connected to a network. An IP address is numerical, for example 192.168.0.1. Less readable, it seems.&lt;/p&gt;
+
+&lt;p&gt;And here is where DNS comes to play. DNS means Domain Name System, and that represents exactly what it is: a system that translates &lt;strong&gt;domain names&lt;/strong&gt; (e.g &lt;em&gt;www.something.com&lt;/em&gt;), into IP addresses. I think of it as a phone book. It is queried with a domain name and, after a lookup, returns an IP.&lt;/p&gt;
+
+&lt;p&gt;How does the magic happen? Let&amp;#39;s look into it.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-definitions&quot;&gt;Some definitions&lt;/h3&gt;
+
+&lt;p&gt;So we can define a domain name as a string composed by one or more parts, called &lt;strong&gt;labels&lt;/strong&gt;, concatenated and delimited by dots with a &lt;strong&gt;hierarchical&lt;/strong&gt; logic.&lt;/p&gt;
+
+&lt;p&gt;In the case of www.example.com, for instance, we have three labels:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;com&lt;/em&gt; is the &lt;strong&gt;top-level&lt;/strong&gt; domain. This should sound familiar. Famous top-level domains are also &lt;em&gt;net&lt;/em&gt;, &lt;em&gt;org&lt;/em&gt;, &lt;em&gt;co.uk&lt;/em&gt;, &lt;em&gt;gov&lt;/em&gt;, etc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Hierarchy goes from left to right, so we can say that &lt;em&gt;example&lt;/em&gt; is a &lt;strong&gt;subdomain&lt;/strong&gt; of &lt;em&gt;com&lt;/em&gt;. And so on.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A name that can be associated to a specific machine connected to a network with an IP address is called &lt;strong&gt;hostname&lt;/strong&gt;. Let&amp;#39;s say it&amp;#39;s the leftmost work in the domain name.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;questions-that-pop-out-at-this-point&quot;&gt;Questions that pop out at this point&lt;/h3&gt;
+
+&lt;p&gt;Q: So all the hostnames reachable via a specific domain have a specific IP address! There must be BILLIONS of them. How do we make sure everyone is unique?&lt;/p&gt;
+
+&lt;p&gt;A: There are entities that have the authority to assign and register names under one or more top-level domain, called &lt;strong&gt;registrars&lt;/strong&gt;. The registered name then becomes part of a central database known as the &lt;em&gt;whois database&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Q: Now, how do we retrieve this infamous IP address by just knowing a domain name? Who can &lt;strong&gt;resolve&lt;/strong&gt; this request?&lt;/p&gt;
+
+&lt;p&gt;A: Well, the domain name is resolved into an IP address by querying &lt;strong&gt;authoritative name servers&lt;/strong&gt;. These machines are the endpoints of a database that can map domain names to IPs. The authoritative name servers of the top level domain are also called &lt;strong&gt;root level servers&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Q: OK, but wait a second. How in the heavens does my machine know the address of the name server to query? I though I just entered an address in the browser!&lt;/p&gt;
+
+&lt;p&gt;A: Every client machine has a default &lt;strong&gt;DNS resolver&lt;/strong&gt;, which is responsible of initiating the sequence of queries that will ultimately lead to the resolution.
+It is very important to note that the system&amp;#39;s DNS setting can be also overridden by the &lt;strong&gt;Internet Service Provider&lt;/strong&gt; (ISP) settings, so the DNS lookup process can be very OS-specific and ISP-specific. This would deserve a whole post apart.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-resolve-an-address-(ideally)&quot;&gt;How to resolve an address (ideally)&lt;/h3&gt;
+
+&lt;p&gt;Resolving an address via DNS is also called &lt;strong&gt;lookup&lt;/strong&gt;, and it is a recursive process. Now that we know what is the purpose of DNS, and the concepts involved in the process. Ideally it works like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The resolver has knowledge of the addresses of root name servers, from where the search can start.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The root name server will return a server which is authoritative for the top-level domain.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The TLD server will give the address of the name server authoritative for the second level domain.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the hostname is resolved, an IP address is returned. Otherwise step 3) is repeated for all the labels of the domain name in sequence, until a result is reached.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://federicomaffei.github.io/public/images/dnsbasic.jpg&quot; class=&quot;center-image&quot;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;real-life-problems&quot;&gt;Real life problems&lt;/h3&gt;
+
+&lt;p&gt;The mechanism explained above is great. But there is a clear bottleneck. Every lookup would involve root servers and authoritative servers, which would be hit by gazillions of queries every day, putting a huge burden on the system since the start.&lt;/p&gt;
+
+&lt;p&gt;To solve this, of course a &lt;strong&gt;caching&lt;/strong&gt; system comes to help. Yes, DNS allows and encourages caching. This way another class of DNS servers comes into play, the &lt;strong&gt;recursive name servers&lt;/strong&gt;. They can perform recursive lookups and cache results, returning them when queried even if they don&amp;#39;t have the authority to generate the results themselves.&lt;/p&gt;
+
+&lt;p&gt;Caching recursive DNS server are usually managed by Internet Service Providers, and are able to resolve addresses without waiting for the &amp;quot;authorities&amp;quot;. This means that a query will rarely have to hit the root name servers, since there is a very high likelihood that the hostname/IP request is already cached by one of the delegated DNS servers that are called by recursion.&lt;/p&gt;
+
+&lt;p&gt;We could say that in reality a root server will be hit as a last resort to track down an authoritative server for a given domain.&lt;/p&gt;
+
+&lt;p&gt;The amount of time for which a lookup result is stored on a server is called &lt;strong&gt;time-to-live (TTL)&lt;/strong&gt; and can vary with the configuration.&lt;/p&gt;
+
+&lt;p&gt;One side effect of the heavy caching that involves the DNS is that when a new domain is registered, or there is a change in any domain-related settings, there will be a time lag for the propagation of it to all the cached results.&lt;/p&gt;
+
+&lt;p&gt;It is noteworthy that cached DNS results from your browsing could be stored in your router, or somewhere within you browser memory as well. These IP addresses seem to be everywhere these days!&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;I barely scratched the surface of the Domain Name System topic, and that alone took me a day of research and writing.&lt;/p&gt;
+
+&lt;p&gt;So I decided to avoid making this post too long, so that beginners that are going to find it will profit, and add a &amp;quot;part one&amp;quot; to the title. This will allow me to decide which part of DNS is worth more digging, and write the sequel.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A Beginner's guide to REST services</title>

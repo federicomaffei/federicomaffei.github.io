@@ -41,6 +41,99 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="http://federicomaffei.github.io/2014/12/31/DNS-whatisit/">
+        Adventures in the DNS jungle - part one
+      </a>
+    </h1>
+
+    <span class="post-date">31 Dec 2014</span>
+
+    <h3 id="introduction-to-dns">Introduction to DNS</h3>
+
+<p>In the last three months have done my fair amount of job interviews, of course looking for a software engineer job, and a question that surfaced AN AWFUL LOT, and when I mean a lot I mean always, is:</p>
+
+<p><em>So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?</em></p>
+
+<p>Of course the possible answers would range from &quot;MMMHHH, wellll, I&#39;m not sure where to start...&quot; to a whole book on networking.</p>
+
+<p>But I think that mentioning <strong>DNS</strong> would make the best start.</p>
+
+<p>Let&#39;s think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and memorable by a human being.</p>
+
+<p>But a machine needs an <strong>IP address</strong> to recognize another machine connected to a network. An IP address is numerical, for example 192.168.0.1. Less readable, it seems.</p>
+
+<p>And here is where DNS comes to play. DNS means Domain Name System, and that represents exactly what it is: a system that translates <strong>domain names</strong> (e.g <em>www.something.com</em>), into IP addresses. I think of it as a phone book. It is queried with a domain name and, after a lookup, returns an IP.</p>
+
+<p>How does the magic happen? Let&#39;s look into it.</p>
+
+<h3 id="some-definitions">Some definitions</h3>
+
+<p>So we can define a domain name as a string composed by one or more parts, called <strong>labels</strong>, concatenated and delimited by dots with a <strong>hierarchical</strong> logic.</p>
+
+<p>In the case of www.example.com, for instance, we have three labels:</p>
+
+<ul>
+<li><p><em>com</em> is the <strong>top-level</strong> domain. This should sound familiar. Famous top-level domains are also <em>net</em>, <em>org</em>, <em>co.uk</em>, <em>gov</em>, etc.</p></li>
+<li><p>Hierarchy goes from left to right, so we can say that <em>example</em> is a <strong>subdomain</strong> of <em>com</em>. And so on.</p></li>
+<li><p>A name that can be associated to a specific machine connected to a network with an IP address is called <strong>hostname</strong>. Let&#39;s say it&#39;s the leftmost work in the domain name.</p></li>
+</ul>
+
+<h3 id="questions-that-pop-out-at-this-point">Questions that pop out at this point</h3>
+
+<p>Q: So all the hostnames reachable via a specific domain have a specific IP address! There must be BILLIONS of them. How do we make sure everyone is unique?</p>
+
+<p>A: There are entities that have the authority to assign and register names under one or more top-level domain, called <strong>registrars</strong>. The registered name then becomes part of a central database known as the <em>whois database</em>.</p>
+
+<p>Q: Now, how do we retrieve this infamous IP address by just knowing a domain name? Who can <strong>resolve</strong> this request?</p>
+
+<p>A: Well, the domain name is resolved into an IP address by querying <strong>authoritative name servers</strong>. These machines are the endpoints of a database that can map domain names to IPs. The authoritative name servers of the top level domain are also called <strong>root level servers</strong>.</p>
+
+<p>Q: OK, but wait a second. How in the heavens does my machine know the address of the name server to query? I though I just entered an address in the browser!</p>
+
+<p>A: Every client machine has a default <strong>DNS resolver</strong>, which is responsible of initiating the sequence of queries that will ultimately lead to the resolution.
+It is very important to note that the system&#39;s DNS setting can be also overridden by the <strong>Internet Service Provider</strong> (ISP) settings, so the DNS lookup process can be very OS-specific and ISP-specific. This would deserve a whole post apart.</p>
+
+<h3 id="how-to-resolve-an-address-(ideally)">How to resolve an address (ideally)</h3>
+
+<p>Resolving an address via DNS is also called <strong>lookup</strong>, and it is a recursive process. Now that we know what is the purpose of DNS, and the concepts involved in the process. Ideally it works like this:</p>
+
+<ol>
+<li><p>The resolver has knowledge of the addresses of root name servers, from where the search can start.</p></li>
+<li><p>The root name server will return a server which is authoritative for the top-level domain.</p></li>
+<li><p>The TLD server will give the address of the name server authoritative for the second level domain.</p></li>
+<li><p>If the hostname is resolved, an IP address is returned. Otherwise step 3) is repeated for all the labels of the domain name in sequence, until a result is reached.</p></li>
+</ol>
+
+<p><img src="http://federicomaffei.github.io/public/images/dnsbasic.jpg" class="center-image"></img></p>
+
+<h3 id="real-life-problems">Real life problems</h3>
+
+<p>The mechanism explained above is great. But there is a clear bottleneck. Every lookup would involve root servers and authoritative servers, which would be hit by gazillions of queries every day, putting a huge burden on the system since the start.</p>
+
+<p>To solve this, of course a <strong>caching</strong> system comes to help. Yes, DNS allows and encourages caching. This way another class of DNS servers comes into play, the <strong>recursive name servers</strong>. They can perform recursive lookups and cache results, returning them when queried even if they don&#39;t have the authority to generate the results themselves.</p>
+
+<p>Caching recursive DNS server are usually managed by Internet Service Providers, and are able to resolve addresses without waiting for the &quot;authorities&quot;. This means that a query will rarely have to hit the root name servers, since there is a very high likelihood that the hostname/IP request is already cached by one of the delegated DNS servers that are called by recursion.</p>
+
+<p>We could say that in reality a root server will be hit as a last resort to track down an authoritative server for a given domain.</p>
+
+<p>The amount of time for which a lookup result is stored on a server is called <strong>time-to-live (TTL)</strong> and can vary with the configuration.</p>
+
+<p>One side effect of the heavy caching that involves the DNS is that when a new domain is registered, or there is a change in any domain-related settings, there will be a time lag for the propagation of it to all the cached results.</p>
+
+<p>It is noteworthy that cached DNS results from your browsing could be stored in your router, or somewhere within you browser memory as well. These IP addresses seem to be everywhere these days!</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>I barely scratched the surface of the Domain Name System topic, and that alone took me a day of research and writing.</p>
+
+<p>So I decided to avoid making this post too long, so that beginners that are going to find it will profit, and add a &quot;part one&quot; to the title. This will allow me to decide which part of DNS is worth more digging, and write the sequel.</p>
+
+<p>Stay tuned!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="http://federicomaffei.github.io/2014/12/29/REST-whatisit/">
         A Beginner's guide to REST services
       </a>
@@ -311,49 +404,6 @@ A key concept that is oldie but goldie: teaching and writing about topics is the
 <p><img src="http://federicomaffei.github.io/public/images/monday.jpg" alt="MONDAY"></p>
 
 <p><a href="https://www.youtube.com/watch?v=2q9_ZEtuTR8">Maybe tomorrow.</a></p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://federicomaffei.github.io/2014/07/24/day-59/">
-        Day 59 - Project Day 4.
-      </a>
-    </h1>
-
-    <span class="post-date">24 Jul 2014</span>
-
-    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">json</span><span class="o">.</span><span class="n">array!</span> <span class="vi">@jobs</span> <span class="k">do</span> <span class="o">|</span><span class="n">job</span><span class="o">|</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">advert_title</span> <span class="n">job</span><span class="o">.</span><span class="n">advert_title</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">address</span> <span class="n">job</span><span class="o">.</span><span class="n">address</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">company</span> <span class="n">job</span><span class="o">.</span><span class="n">company</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">category</span> <span class="n">job</span><span class="o">.</span><span class="n">category</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">latitude</span> <span class="n">job</span><span class="o">.</span><span class="n">latitude</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">longitude</span> <span class="n">job</span><span class="o">.</span><span class="n">longitude</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">detail</span> <span class="n">job</span><span class="o">.</span><span class="n">detail</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">email</span> <span class="n">job</span><span class="o">.</span><span class="n">email</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">phone</span> <span class="n">job</span><span class="o">.</span><span class="n">phone</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">wage</span> <span class="n">job</span><span class="o">.</span><span class="n">wage</span>
-    <span class="n">json</span><span class="o">.</span><span class="n">hours</span> <span class="p">(</span><span class="n">job</span><span class="o">.</span><span class="n">full_time?</span> <span class="p">?</span> <span class="s2">&quot;Full time&quot;</span> <span class="p">:</span> <span class="s2">&quot;Part time&quot;</span><span class="p">)</span>
-<span class="k">end</span></code></pre></div>
-
-<p>Hectic day today, started with the usual Standup Meeting with Jordan. Here&#39;s all the team, glorious screenshot.</p>
-
-<p><img src="http://federicomaffei.github.io/public/images/meeting.png" alt="MEETING"></p>
-
-<p>Then we went on with the development of our creature, WorkMap. The deadline to deliver a shippable product, as per Agile specifications, is this Sunday. Then we&#39;ll begin the second and last Sprint.</p>
-
-<p>This means a rush of four days, in which we have to tackle 3 main aims:</p>
-
-<ul>
-<li><p>Be sure that all the jobs inserted by the employer are in the map, and allow the user to filter them.</p></li>
-<li><p>Make a good looking landing page.</p></li>
-<li><p>Be sure that the employer can edit the jobs he inserted, and pays for the newly added advert.</p></li>
-</ul>
-
-<p>Today I have been working with Robin, trying to tackle the jobs filtering on the map. It turned out that all the code that I wrote to make checkboxes filter results was pretty useless, since now we settled for a filtering form, allow us to render the results of the search in <a href="http://en.wikipedia.org/wiki/JSON">JSON format</a>. This way we can pass all the information related to jobs from the Rails back end to the Javascript front end, and viceversa.</p>
-
-<p>Anyway, two full days of work to Sunday. Better get some rest, yo.</p>
 
   </div>
   
