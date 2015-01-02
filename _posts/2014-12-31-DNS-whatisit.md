@@ -6,15 +6,15 @@ comments: true
 
 ###Introduction to DNS
 
-In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I mean a lot I mean always, is:
+In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I say a lot I mean always, is:
 
 *So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?*
 
-Of course the possible answers would range from "MMMHHH, wellll, I'm not sure where to start..." to a whole book on networking.
+Of course the possible answers would range from "MMMHHH, wellll, I'm not sure where to start..." to a whole book on computer networks.
 
-But I think that mentioning **DNS** would make the best start.
+But I think that mentioning **DNS** would be a reasonable start.
 
-Let's think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and memorable by a human being.
+Let's think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and retainable by a human being.
 
 But a machine needs an **IP address** to recognize another machine connected to a network. An IP address is numerical, for example 192.168.0.1. Less readable, it seems.
 
@@ -36,7 +36,7 @@ In the case of www.example.com, for instance, we have three labels:
 
 ###Questions that pop out at this point
 
-Q: So all the hostnames reachable via a specific domain have a specific IP address! There must be BILLIONS of them. How do we make sure everyone is unique?
+Q: So all the host names reachable via a specific domain have a specific IP address! There must be BILLIONS of them. How do we make sure everyone is unique?
 
 A: There are entities that have the authority to assign and register names under one or more top-level domain, called **registrars**. The registered name then becomes part of a central database known as the *whois database*.
 

@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-02T17:21:12+00:00</updated>
+ <updated>2015-01-02T17:23:52+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -19,15 +19,15 @@
    <id>http://federicomaffei.github.io/2014/12/31/DNS-whatisit</id>
    <content type="html">&lt;h3 id=&quot;introduction-to-dns&quot;&gt;Introduction to DNS&lt;/h3&gt;
 
-&lt;p&gt;In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I mean a lot I mean always, is:&lt;/p&gt;
+&lt;p&gt;In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I say a lot I mean always, is:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Of course the possible answers would range from &amp;quot;MMMHHH, wellll, I&amp;#39;m not sure where to start...&amp;quot; to a whole book on networking.&lt;/p&gt;
+&lt;p&gt;Of course the possible answers would range from &amp;quot;MMMHHH, wellll, I&amp;#39;m not sure where to start...&amp;quot; to a whole book on computer networks.&lt;/p&gt;
 
-&lt;p&gt;But I think that mentioning &lt;strong&gt;DNS&lt;/strong&gt; would make the best start.&lt;/p&gt;
+&lt;p&gt;But I think that mentioning &lt;strong&gt;DNS&lt;/strong&gt; would be a reasonable start.&lt;/p&gt;
 
-&lt;p&gt;Let&amp;#39;s think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and memorable by a human being.&lt;/p&gt;
+&lt;p&gt;Let&amp;#39;s think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and retainable by a human being.&lt;/p&gt;
 
 &lt;p&gt;But a machine needs an &lt;strong&gt;IP address&lt;/strong&gt; to recognize another machine connected to a network. An IP address is numerical, for example 192.168.0.1. Less readable, it seems.&lt;/p&gt;
 
@@ -49,7 +49,7 @@
 
 &lt;h3 id=&quot;questions-that-pop-out-at-this-point&quot;&gt;Questions that pop out at this point&lt;/h3&gt;
 
-&lt;p&gt;Q: So all the hostnames reachable via a specific domain have a specific IP address! There must be BILLIONS of them. How do we make sure everyone is unique?&lt;/p&gt;
+&lt;p&gt;Q: So all the host names reachable via a specific domain have a specific IP address! There must be BILLIONS of them. How do we make sure everyone is unique?&lt;/p&gt;
 
 &lt;p&gt;A: There are entities that have the authority to assign and register names under one or more top-level domain, called &lt;strong&gt;registrars&lt;/strong&gt;. The registered name then becomes part of a central database known as the &lt;em&gt;whois database&lt;/em&gt;.&lt;/p&gt;
 
