@@ -52,11 +52,11 @@ It is very important to note that the system's DNS setting can be also overridde
 
 ###How to resolve an address (ideally)
 
-Resolving an address via DNS is also called **lookup**, and it is a recursive process. Now that we know what is the purpose of DNS, and the concepts involved in the process. Ideally it works like this:
+Resolving an address via DNS is also called **lookup**, and it is a recursive process. Now that we know the purpose of DNS, and the concepts involved in the process, we can dig a little deeper into its basic mechanism, which is roughly:
 
 1. The resolver has knowledge of the addresses of root name servers, from where the search can start.
 
-2. The root name server will return a server which is authoritative for the top-level domain.
+2. The root name server will return a name server which is authoritative for the top-level domain.
 
 3. The TLD server will give the address of the name server authoritative for the second level domain.
 
@@ -66,7 +66,7 @@ Resolving an address via DNS is also called **lookup**, and it is a recursive pr
 
 ###Real life problems
 
-The mechanism explained above is great. But there is a clear bottleneck. Every lookup would involve root servers and authoritative servers, which would be hit by gazillions of queries every day, putting a huge burden on the system since the start.
+The mechanism explained above is great, but if applied in real life application, it will lead to a bottleneck. Every lookup would involve root servers and authoritative servers, which would be hit by gazillions of queries every day, putting a huge burden on the system since the start.
 
 To solve this, of course a **caching** system comes to help. Yes, DNS allows and encourages caching. This way another class of DNS servers comes into play, the **recursive name servers**. They can perform recursive lookups and cache results, returning them when queried even if they don't have the authority to generate the results themselves.
 
