@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-02T17:40:14+00:00</updated>
+ <updated>2015-01-02T17:44:14+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -110,11 +110,11 @@ It is very important to note that the system&amp;#39;s DNS setting can be also o
    <id>http://federicomaffei.github.io/2014/12/29/REST-whatisit</id>
    <content type="html">&lt;h3 id=&quot;introduction-to-rest&quot;&gt;Introduction to REST&lt;/h3&gt;
 
-&lt;p&gt;REST stands for Representational State Transfer, and it can be defined as an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that is designed by REST principles can be called a &lt;strong&gt;RESTful service&lt;/strong&gt;. REST is not strictly dependent on any protocol or technology.&lt;/p&gt;
+&lt;p&gt;REST stands for Representational State Transfer, and it can be defined as an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that is designed by REST principles can be called a &lt;strong&gt;RESTful service&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;It has been described first in 2000 by Roy Fielding, in a &lt;a href=&quot;http://www.ics.uci.edu/%7Efielding/pubs/webarch_icse2000.pdf&quot;&gt;dissertation&lt;/a&gt; called &amp;quot;Architectural Styles and the Design of Network-based Software Architectures&amp;quot;. The basic idea was to describe and put limits to the interactions between the components of a distributed system, emphasizing the importance of an uniform interface, that is abstracted from the single components.&lt;/p&gt;
+&lt;p&gt;It has been described first in 2000 by Roy Fielding, in a &lt;a href=&quot;http://www.ics.uci.edu/%7Efielding/pubs/webarch_icse2000.pdf&quot;&gt;dissertation&lt;/a&gt; called &amp;quot;Architectural Styles and the Design of Network-based Software Architectures&amp;quot;. The basic idea was to describe the interactions between the components of a distributed system, putting constraints on them and emphasizing the importance of an uniform interface, that is abstracted from the single components.&lt;/p&gt;
 
-&lt;p&gt;REST is often applied to the design and development of web services, which is the case that I&amp;#39;ll try to address in this post.&lt;/p&gt;
+&lt;p&gt;REST is often applied to the design and development of web services, which is the scenario I&amp;#39;ll try to address in this post.&lt;/p&gt;
 
 &lt;p&gt;The purpose of a web service can be summed up as follows: it exposes &lt;strong&gt;resources&lt;/strong&gt; to a &lt;strong&gt;client&lt;/strong&gt; so that it can have access to them (example of typical resources: pictures, video files, web pages, business data).&lt;/p&gt;
 
@@ -288,7 +288,7 @@ It is very important to note that the system&amp;#39;s DNS setting can be also o
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;REST is a language-agnostic style that allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.&lt;/p&gt;
+&lt;p&gt;REST is a language-agnostic style that abstracts over components and allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.&lt;/p&gt;
 
 &lt;p&gt;That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.&lt;/p&gt;
 

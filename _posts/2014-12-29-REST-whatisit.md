@@ -6,11 +6,11 @@ comments: true
 
 ###Introduction to REST
 
-REST stands for Representational State Transfer, and it can be defined as an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that is designed by REST principles can be called a **RESTful service**. REST is not strictly dependent on any protocol or technology.
+REST stands for Representational State Transfer, and it can be defined as an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that is designed by REST principles can be called a **RESTful service**.
 
-It has been described first in 2000 by Roy Fielding, in a [dissertation](http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf) called "Architectural Styles and the Design of Network-based Software Architectures". The basic idea was to describe and put limits to the interactions between the components of a distributed system, emphasizing the importance of an uniform interface, that is abstracted from the single components.
+It has been described first in 2000 by Roy Fielding, in a [dissertation](http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf) called "Architectural Styles and the Design of Network-based Software Architectures". The basic idea was to describe the interactions between the components of a distributed system, putting constraints on them and emphasizing the importance of an uniform interface, that is abstracted from the single components.
 
-REST is often applied to the design and development of web services, which is the case that I'll try to address in this post.
+REST is often applied to the design and development of web services, which is the scenario I'll try to address in this post.
 
 The purpose of a web service can be summed up as follows: it exposes **resources** to a **client** so that it can have access to them (example of typical resources: pictures, video files, web pages, business data).
 
@@ -129,7 +129,7 @@ Cache-Control values can be tweaked to control if a cached result is still valid
 
 ###Conclusion
 
-REST is a language-agnostic style that allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.
+REST is a language-agnostic style that abstracts over components and allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.
 
 That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.
 
