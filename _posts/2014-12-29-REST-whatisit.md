@@ -6,11 +6,13 @@ comments: true
 
 ###Introduction to REST
 
-REST stands for Representational State Transfer.
+REST stands for Representational State Transfer, and it can be defined as an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that is designed by REST principles can be called a **RESTful service**. REST is not strictly dependent on any protocol or technology.
 
-It is an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that uses it is called a **RESTful service**. REST is not strictly dependent on any protocol, but very often uses HTTP.
+It has been described first in 2000 by Roy Fielding, in a [dissertation](http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf) called "Architectural Styles and the Design of Network-based Software Architectures". The basic idea was to describe and put limits to the interactions between the components of a distributed system, emphasizing the importance of an uniform interface, that is abstracted from the single components.
 
-The purpose of a web service can be summed up as follows: it exposes **resources** to its **clients** so that they can access them (example of typical resources: pictures, video files, web pages, business data).
+REST is often applied to the design and development of web services, which is the case that I'll try to address in this post.
+
+The purpose of a web service can be summed up as follows: it exposes **resources** to a **client** so that it can have access to them (example of typical resources: pictures, video files, web pages, business data).
 
 Common features of a service that is built in a REST style are:
 
