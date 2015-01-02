@@ -28,7 +28,7 @@ So we can define a domain name as a string composed by one or more parts, called
 
 In the case of www.example.com, for instance, we have three labels:
 
-- *com* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *net*, *org*, *co.uk*, *gov*, etc.
+- *com* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *net*, *org*, *.uk*, *.it*, *gov*, etc.
 
 - Hierarchy goes from left to right, so we can say that *example* is a **subdomain** of *com*. And so on.
 

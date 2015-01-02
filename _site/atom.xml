@@ -4,7 +4,7 @@
  <title>fedtechrants -></title>
  <link href="http://federicomaffei.github.io/atom.xml" rel="self"/>
  <link href="http://federicomaffei.github.io/"/>
- <updated>2015-01-02T17:16:41+00:00</updated>
+ <updated>2015-01-02T17:19:14+00:00</updated>
  <id>http://federicomaffei.github.io</id>
  <author>
    <name>Federico Maffei</name>
@@ -42,7 +42,7 @@
 &lt;p&gt;In the case of www.example.com, for instance, we have three labels:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;com&lt;/em&gt; is the &lt;strong&gt;top-level&lt;/strong&gt; domain. This should sound familiar. Famous top-level domains are also &lt;em&gt;net&lt;/em&gt;, &lt;em&gt;org&lt;/em&gt;, &lt;em&gt;co.uk&lt;/em&gt;, &lt;em&gt;gov&lt;/em&gt;, etc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;com&lt;/em&gt; is the &lt;strong&gt;top-level&lt;/strong&gt; domain. This should sound familiar. Famous top-level domains are also &lt;em&gt;net&lt;/em&gt;, &lt;em&gt;org&lt;/em&gt;, &lt;em&gt;.uk&lt;/em&gt;, &lt;em&gt;.it&lt;/em&gt;, &lt;em&gt;gov&lt;/em&gt;, etc.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Hierarchy goes from left to right, so we can say that &lt;em&gt;example&lt;/em&gt; is a &lt;strong&gt;subdomain&lt;/strong&gt; of &lt;em&gt;com&lt;/em&gt;. And so on.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A name that can be associated to a specific machine connected to a network with an IP address is called &lt;strong&gt;hostname&lt;/strong&gt;. Let&amp;#39;s say it&amp;#39;s the leftmost work in the domain name.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
