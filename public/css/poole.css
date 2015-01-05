@@ -309,7 +309,7 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 .masthead-title {
   margin-top: 0;
@@ -337,7 +337,7 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   font-family: 'Lora', serif;
-  margin-bottom: 4em;
+  margin-bottom: 2.5em;
 }
 
 /* Blog post or page title */
