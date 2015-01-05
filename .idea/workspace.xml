@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2c50ab-0bff-4104-a9f7-ad78ea8830b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/20/first-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/21/day-7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/22/day-8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/23/day-9/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/27/day-10/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/28/day-11/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/29/day-12/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/05/30/day-13/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/01/weekend/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/02/day-14-15/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/05/day-17/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/10/day-22/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/12/day-24/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/14/weekend/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/18/day-31/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/19/day-32/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/20/day-33/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/24/day-36/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/25/day-37/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/26/day-38/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/30/day-40/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/01/day-41/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/02/day-42/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/03/day-43/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/04/day-44/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/06/weekend/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/08/day-47/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/09/day-48/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/10/day-49/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/14/day-51/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/17/day-54/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/20/weekend/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/21/day-56/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/22/day-57/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/23/day-58/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/24/day-59/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/07/28/day-61/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/08/13/graduation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/11/17/newjob/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/12/29/REST-whatisit/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/12/31/DNS-whatisit/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page5/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page6/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page9/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/apple-touch-icon-144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/css/poole.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/css/syntax.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/alex.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/baggio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/balo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/beard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/beatles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/bigw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/bike.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/broken.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/burgers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/dnsbasic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/doomsday.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/enrique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/f_makers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fedtechrants -  · another beginner's blog on programming computers..html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fedtechrants -  · another beginner's blog on programming computers._files/home.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fedtechrants -  · another beginner's blog on programming computers._files/nerd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fedtechrants -  · another beginner's blog on programming computers._files/pizza.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fedtechrants -  · another beginner's blog on programming computers._files/pizzagram.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fedtechrants -  · another beginner's blog on programming computers._files/stripe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/fiches.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/flatmates.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/footy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/himym.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/home.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/instagram.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/london.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/lost.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/meeting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/monday.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/nerd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/ot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/pizza.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/pizzagram.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/pollo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/poutine.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/retrospective.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/scooter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/sea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/sky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/stripe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/suarez.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/public/images/tgif.jpeg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atom.xml" afterPath="$PROJECT_DIR$/atom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_config-dev.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -136,8 +33,18 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.038659792" vertical-offset="0" max-vertical-offset="776">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.23195876" vertical-offset="0" max-vertical-offset="776">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/2014/12/31/DNS-whatisit/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2925">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,24 +70,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="510">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="510">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,7 +103,7 @@
       <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -199,36 +113,10 @@
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="480">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="480">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014-12-29-REST-whatisit.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="2115">
-              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -242,11 +130,13 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/2014-12-31-DNS-whatisit.md" />
         <option value="$PROJECT_DIR$/_posts/2014-12-29-REST-whatisit.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/atom.xml" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/_site/2014/12/31/DNS-whatisit/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_config-dev.yml" />
       </list>
     </option>
   </component>
@@ -300,48 +190,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="federicomaffei.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="federicomaffei.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="federicomaffei.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="federicomaffei.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="federicomaffei.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="federicomaffei.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -375,21 +223,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -438,32 +286,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="450">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/poole.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3239" max-vertical-offset="6630">
-          <caret line="240" column="1" selection-start-line="240" selection-start-column="1" selection-end-line="240" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-07-06-weekend.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -838,22 +660,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+    <entry file="file://$PROJECT_DIR$/atom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.md">
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
+        <state vertical-scroll-proportion="-7.7965426" vertical-offset="5863" max-vertical-offset="6615">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2014/12/31/DNS-whatisit/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2925">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="480">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
@@ -866,24 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="510">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="480">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="510">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -896,10 +724,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038659792" vertical-offset="0" max-vertical-offset="776">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.23195876" vertical-offset="0" max-vertical-offset="776">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
           <folding />
         </state>
       </provider>
