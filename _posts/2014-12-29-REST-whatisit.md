@@ -12,6 +12,8 @@ It has been described first in 2000 by Roy Fielding, in a [dissertation](http://
 
 REST is often applied to the design and development of web services, which is the scenario I'll try to address in this post.
 
+<!--more-->
+
 The purpose of a web service can be summed up as follows: it exposes **resources** to a **client** so that it can have access to them (example of typical resources: pictures, video files, web pages, business data).
 
 Common features of a service that is built in a REST style are:

@@ -14,6 +14,8 @@ describe 'overloading my brain' do
  end
 {% endhighlight %}
 
+<!--more-->
+
 All right, here I am. Blogging for the first time in my life, about something that I'm doing for the first time in my life.
 
 Coding. Learning how to develop software with my own brain and hands.

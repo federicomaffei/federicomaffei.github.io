@@ -1,24 +1,27 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:           redcarpet
+highlighter:        pygments
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
+  extensions:       ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
 
 # Permalinks
-permalink:        pretty
+permalink:          pretty
+
+#Layout
+excerpt_separator:  <!--more-->
 
 # Setup
-title:            fedtechrants.
-tagline:          another beginner's blog on programming computers.
-url:              http://federicomaffei.github.io
-paginate:         5
-baseurl:	      /
+title:              fedtechrants.
+tagline:            another beginner's blog on programming computers.
+url:                http://federicomaffei.github.io
+paginate:           5
+baseurl:	        /
 author:
-  name:           Federico Maffei
-  url:            https://github.com/federicomaffei
-  email:          federico.maffei@gmail.com
+  name:             Federico Maffei
+  url:              https://github.com/federicomaffei
+  email:            federico.maffei@gmail.com
 
 # Custom vars
-version:          1.0.0
+version:            1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:             https://github.com/poole/poole

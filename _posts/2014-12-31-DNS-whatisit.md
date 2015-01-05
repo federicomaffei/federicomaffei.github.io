@@ -14,6 +14,8 @@ Of course the possible answers would range from "MMMHHH, wellll, I'm not sure wh
 
 But I think that mentioning **DNS** would be a reasonable start.
 
+<!--more-->
+
 Let's think about it. When we type the address of the resource we want to browse, we use the alphabet, right? With letters and names easily readable and retainable by a human being.
 
 But a machine needs an **IP address** to recognize another machine connected to a network. An IP address is numerical, for example 192.168.0.1. Less readable, it seems.

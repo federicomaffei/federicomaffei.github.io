@@ -8,6 +8,8 @@ It's often wise to sit down and let some time pass after something important hap
 
 I am a Makers Academy graduate, in the end. This has been a wild ride. Something I will not forget, ever.
 
+<!--more-->
+
 Graduation day has been very similar to the whole experience: a rollercoaster of emotions, good and bad ones, as often happens in 25, City Road. My cohort mates' projects were all incredible and clearly showed eveyone how people get real skills here.
 
 Let's start talking a bit about the good things and peoples: 
