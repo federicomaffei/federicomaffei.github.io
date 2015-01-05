@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:         true
+highlighter:      true
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
 
@@ -8,7 +8,7 @@ redcarpet:
 permalink:        pretty
 
 # Setup
-title:            fedtechrants ->
+title:            fedtechrants.
 tagline:          another beginner's blog on programming computers.
 url:              http://federicomaffei.github.io
 paginate:         5
