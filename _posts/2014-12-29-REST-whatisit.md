@@ -14,7 +14,7 @@ REST is often applied to the design and development of web services, which is th
 
 <!--more-->
 
-The purpose of a web service can be summed up as follows: it exposes **resources** to a **client** so that it can have access to them (example of typical resources: pictures, video files, web pages, business data).
+The purpose of a web service can be summed up as follows: it exposes **resources** to a **client** so that it can have access to them (examples of typical resources include pictures, video files, web pages and business data).
 
 Common features of a service that is built in a REST style are:
 
@@ -55,14 +55,14 @@ It has to be kept in mind that a resource should be completely described by the 
 
 ###Messages A.K.A. client and service chatting
 
-Q: So, how do exactly client and service exchange requests and responses?
+Q: So, how exactly do client and service exchange requests and responses?
 
 A: They send messages.
 
 In fact, to be more specific, the client will send an **HTTP request** to the service, specifying the following details:
 
 - The **method** that is called on the resource. It can correspond to a *GET*, a *POST*, a *PUT*, a *DELETE*, an *OPTIONS* or a *HEAD* operation.
-- The **URI** of the request. It identifies what is the resource on which the client wants to use the method on. More on that later. For now let's say it is the only way the client know how to call the needed resource.
+- The **URI** of the request. It identifies what is the resource on which the client wants to use the method. More on that later. For now let's say it is the only way the client knows how to call the needed resource.
 - The **HTTP version**, which is usually *HTTP/1.1*.
 - The **request headers**, which are the additional information passed, with the request, to the service. These fields are basically request modifiers, similar to the parameters sent to a programming language method, and they depend on the type of request sent. More on that later.
 - The **request body**: is the actual content of a message. In a RESTful service, it’s where the representation of resources sit. A body will not be present in a GET request, for instance, since it is a request to retrieve a resource rather than to create one, whereas a POST request will most likely have one.
@@ -70,9 +70,9 @@ In fact, to be more specific, the client will send an **HTTP request** to the se
 The request will then generate an **HTTP response** to the client, that will contain the following elements:
 
 - The **HTTP version**, same as above.
-- the **response code**: which is a three-digit status code sent back to the client. Can be of the **1xx** format (informational), **2xx** (success), **3xx** (redirect), **4xx** (client error), **5xx** (server error).
-- the **response header**, which contains metadata and settings related to the message.
-- the **response body**: contains the representation (if the request was successful).
+- The **response code**: which is a three-digit status code sent back to the client. Can be of the **1xx** format (informational), **2xx** (success), **3xx** (redirect), **4xx** (client error), **5xx** (server error).
+- The **response header**, which contains metadata and settings related to the message.
+- The **response body**: contains the representation (if the request was successful).
 
 ###URIs, home of the resources
 
@@ -109,11 +109,11 @@ Finally, if the resource already exists, *POST* and *PUT* will update it in an i
 
 ###Statelessness of the client side
 
-A RESTful service does not maintain the application state client-side. This only allow the client to perform requests that are resource specific, and does not allow the client to perform operations that assume prior knowledge of past requests.
+A RESTful service does not maintain the application state client-side. This only allows the client to perform requests that are resource specific, and does not allow the client to perform operations that assume prior knowledge of past requests.
 
 ###Links between resources
 
-in the case of a resource that contains a list of resources, REST suggests to include links to the single resources on the representation, to keep it compact and avoid redundant data.
+In the case of a resource that contains a list of resources, REST suggests to include links to the single resources on the representation, to keep it compact and avoid redundant data.
 
 ###Caching to optimize time and efficiency
 
@@ -131,8 +131,8 @@ Cache-Control values can be tweaked to control if a cached result is still valid
 
 ###Conclusion
 
-REST is a language-agnostic style that abstracts over components and allows to build scalable, reusable and relatively lightweight web services. Thinking about it, seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.
+REST is a language-agnostic style that abstracts over components and allows to build scalable, reusable and relatively lightweight web services. Thinking about it, it seems that REST is nothing more than a description of the characteristics that made the World Wide Web so popular.
 
-That of course is encouraging developer from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.
+That of course is encouraging developers from all over the world to comply to these very basic ideas, owned by no one but at the same time used by everyone.
 
 <img src="http://federicomaffei.github.io/public/images/himym.gif" class="center-image"></img>
