@@ -6,7 +6,7 @@ comments: true
 
 ###Introduction to DNS
 
-In the last three months have done my fair amount of interviews, of course looking for a software engineer job. A question that has popped out a lot, and when I say a lot I mean always, is:
+In the last three months I have done my fair amount of interviews of course, looking for a software engineer job. A question that has popped out a lot, and when I say a lot I mean *always*, is:
 
 *So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?*
 
@@ -30,7 +30,7 @@ So we can define a domain name as a string composed by one or more parts, called
 
 In the case of www.example.com, for instance, we have three labels:
 
-- *com* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *net*, *org*, *.uk*, *.it*, *gov*, etc.
+- *com* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *.net*, *.org*, *.uk*, *.it*, *.gov*, etc.
 
 - Hierarchy goes from left to right, so we can say that *example* is a **subdomain** of *com*. And so on.
 
