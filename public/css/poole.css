@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -74,10 +74,10 @@ a strong {
   color: inherit;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
+/*a:hover,*/
+/*a:focus {*/
+  /*text-decoration: underline;*/
+/*}*/
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -314,10 +314,10 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #303030;
 }
 .masthead-title a {
-  color: #505050;
+  color: #303030;
 }
 .masthead-title small {
   font-size: 75%;
