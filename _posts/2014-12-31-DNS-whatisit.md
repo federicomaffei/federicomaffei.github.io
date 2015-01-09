@@ -34,7 +34,7 @@ In the case of www.example.com, for instance, we have three labels:
 
 - Hierarchy goes from left to right, so we can say that *example* is a **subdomain** of *com*. And so on.
 
-- A name that can be associated to a specific machine connected to a network with an IP address is called **hostname**. Let's say it's the leftmost work in the domain name.
+- A name that can be associated to a specific machine connected to a network with an IP address is called **hostname**. Let's say it's the leftmost label in the domain name.
 
 ###Questions that pop out at this point
 
@@ -46,7 +46,7 @@ Q: Now, how do we retrieve this infamous IP address by just knowing a domain nam
 
 A: Well, the domain name is resolved into an IP address by querying **authoritative name servers**. These machines are the endpoints of a database that can map domain names to IPs. The authoritative name servers of the top level domain are also called **root level servers**.
 
-Q: OK, but wait a second. How in the heavens does my machine know the address of the name server to query? I though I just entered an address in the browser!
+Q: OK, but wait a second. How in the heavens does my machine know the address of the name server to query? I thought I just entered an address in the browser!
 
 A: Every client machine has a default **DNS resolver**, which is responsible of initiating the sequence of queries that will ultimately lead to the resolution.
 It is very important to note that the system's DNS setting can be also overridden by the **Internet Service Provider** (ISP) settings, so the DNS lookup process can be very OS-specific and ISP-specific. This would deserve a whole post apart.
