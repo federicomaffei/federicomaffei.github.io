@@ -12,7 +12,7 @@ excerpt_separator:  <!--more-->
 
 # Setup
 title:              fedtechrants.
-tagline:            another beginner's blog on programming computers.
+tagline:            blog on programming computers.
 url:                http://federicomaffei.github.io
 paginate:           5
 baseurl:	        /
