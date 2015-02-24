@@ -6,13 +6,13 @@ comments: true
 
 ###Introduction to DNS
 
-In the last three months I have done my fair amount of interviews of course, looking for a software engineer job. A question that has popped out a lot, and when I say a lot I mean *always*, is:
+Before joining OpenTable I was looking for a software engineer job and I've done my fair share of interviews. A question that has popped out a lot, and when I say a lot I mean *always*, is:
 
-*So, dear wannabe webdev with little or no experience in the field, could you tell me what happens when I type an URL in a web browser on my computer and press enter?*
+*Could you tell me what happens when I type an URL in a web browser on my computer and press enter?*
 
-Of course the possible answers would range from "MMMHHH, wellll, I'm not sure where to start..." to a whole book on computer networks.
+Of course the possible answers could range from "MMMHHH, wellll, I'm not sure where to start..." to a whole book on computer networks.
 
-But I think that mentioning **DNS** would be a reasonable start.
+After a number of attempts to answer briefly and correctly, I've concluded that mentioning **DNS** can make a reasonable start.
 
 <!--more-->
 
@@ -32,7 +32,7 @@ In the case of www.example.com, for instance, we have three labels:
 
 - *com* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *.net*, *.org*, *.uk*, *.it*, *.gov*, etc.
 
-- Hierarchy goes from left to right, so we can say that *example* is a **subdomain** of *com*. And so on.
+- Hierarchy goes from right to left, so we can say that *example* is a **subdomain** of *com*. And so on.
 
 - A name that can be associated to a specific machine connected to a network with an IP address is called **hostname**. Let's say it's the leftmost label in the domain name.
 
@@ -64,7 +64,7 @@ Resolving an address via DNS is also called **lookup**, and it is a recursive pr
 
 4. If the hostname is resolved, an IP address is returned. Otherwise step 3) is repeated for all the labels of the domain name in sequence, until a result is reached.
 
-I did an amazing diagram to show that.
+I made a diagram that shows that.
 
 <img src="http://federicomaffei.github.io/public/images/dnsbasic.jpg" class="center-image"></img>
 
@@ -86,8 +86,8 @@ It is noteworthy that cached DNS results from your browsing could be stored in y
 
 ###Conclusion
 
-I barely scratched the surface of the Domain Name System topic, and that alone took me a day of research and writing.
+I barely scratched the surface of the Domain Name System topic, and that alone took a good day of research and writing.
 
-So I decided to avoid making this post too long, so that beginners that are going to find it will profit, and add a "part one" to the title. This will allow me to decide which part of DNS is worth more digging, and write the sequel.
+So I decided to avoid making this post too long, so that beginners that are going to find it will profit, and be encouraged to research on these key concepts. This will allow me to decide which part of DNS is worth more digging, and maybe write a sequel.
 
 Stay tuned!
