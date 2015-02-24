@@ -20,7 +20,7 @@ Let's think about it. When we type the address of the resource we want to browse
 
 But a machine needs an **IP address** to recognize another machine connected to a network. An IP address is numerical, for example 192.168.0.1. Less readable, it seems.
 
-And here is where DNS comes to play. DNS stands for **Domain Name System**, and that represents exactly what it is: a system that translates **domain names** (e.g *www.something.com*), into IP addresses. I think of it as a phone book. It is queried with a domain name and, after a lookup, returns an IP.
+And here is where DNS comes to play. DNS stands for **Domain Name System**, and that represents exactly what it is: a system that translates **domain names** (e.g *www.opentable.co.uk*), into IP addresses. I think of it as a phone book. It is queried with a domain name and, after a lookup, returns an IP.
 
 How does the magic happen? Let's look into it.
 
@@ -30,11 +30,13 @@ How does the magic happen? Let's look into it.
 
 So we can define a domain name as a string composed by one or more parts, called **labels**, concatenated and delimited by dots with a **hierarchical** logic.
 
-In the case of www.example.com, for instance, we have three labels:
+In the case of www.opentable.co.uk, for instance, we have four labels:
 
-- *com* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *.net*, *.org*, *.uk*, *.it*, *.gov*, etc.
+- *uk* is the **top-level** domain. This should sound familiar. Famous top-level domains are also *.net*, *.org*, *.uk*, *.it*, *.gov*, etc.
 
-- Hierarchy goes from right to left, so we can say that *example* is a **subdomain** of *com*. And so on.
+- *co* is the **second level** domain, which in this case specifies the commercial nature of the company.
+
+- Hierarchy goes from right to left, so then we can say that *opentable* is a **subdomain** of *co*. And so on.
 
 - A name that can be associated to a specific machine connected to a network with an IP address is called **hostname**. Let's say it's the leftmost label in the domain name.
 
