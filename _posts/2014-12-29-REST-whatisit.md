@@ -8,7 +8,7 @@ comments: true
 
 As a junior, I always find it easier to just sit and write code than actually stop to think about the theoretical basis that lie under the applications I work on. **REST**  is one of those terms I heard a lot about, so I decided to try to sum up what it means and how it affects the choices we make everyday as software engineers.
 
-###Introduction to REST
+## Introduction to REST
 
 REST stands for Representational State Transfer, and it can be defined as an architectural style used to build Web Services that are lightweight, maintainable, and scalable. A service that is designed by REST principles can be called a **RESTful service**.
 
@@ -184,7 +184,7 @@ Allows to store responses and return them if the same request is performed again
 
 Cache-Control values can be tweaked to control if a cached result is still valid or stale. For example, the *max-age* value indicates for how many seconds from the moment expressed by the Date header a cached result will be valid.
 
-###Conclusion
+## Conclusion
 
 REST is a language-agnostic style that abstracts over components and allows to build scalable, reusable and relatively lightweight web services. Thinking about it, it seems that REST is very close to an accurate description of the characteristics that made the World Wide Web so popular.
 
