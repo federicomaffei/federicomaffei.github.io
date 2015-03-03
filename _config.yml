@@ -11,8 +11,8 @@ permalink:          pretty
 excerpt_separator:  <!--more-->
 
 # Setup
-title:              fedtechrants.
-tagline:            blog on programming computers.
+title:              blog.federicomaffei.com
+tagline:            current level - articles for beginners
 url:                "http://blog.federicomaffei.com"
 paginate:           5
 baseurl:	        /
