@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -336,8 +336,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  font-family: 'Lora', serif;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
